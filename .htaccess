@@ -1,0 +1,16 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+RewriteRule "^([^/]+)/([^/]+)/([^/]+)(/.*)?$" /$1$4?$2=$3 [L,QSA]
+
+RewriteRule ^([^/]+)/?$ ./index.php?page=$1 [QSA,L]
+
+SetEnv no-gzip dont-vary
+
+<Files *.json.php>
+Order Deny,Allow
+Deny from All
+</Files>

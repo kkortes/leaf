@@ -1,0 +1,18 @@
+// Smartphone, both orientations
+@media (max-width: $screen-xs-max)
+  body
+    // Your code here
+
+  // Smartphone, vertical
+  @media (max-width: $screen-xs-min)
+    body
+      // Your code here
+      &:before
+        content:'smartphone vertical'
+  
+  // smartphone, horizontal
+  @media (min-width: $screen-xs-min) and (max-width: $screen-xs-max)
+    body
+      // Your code here
+      &:before
+        content:'smartphone horizontal'

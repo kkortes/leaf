@@ -1,0 +1,69 @@
+.teal {
+  background: #009688;
+  color: #fff;
+}
+.teal.m450,
+.teal .m450 {
+  background: #e0f2f1;
+  color: #000;
+}
+.teal.m400,
+.teal .m400 {
+  background: #b2dfdb;
+  color: #000;
+}
+.teal.m300,
+.teal .m300 {
+  background: #80cbc4;
+  color: #000;
+}
+.teal.m200,
+.teal .m200 {
+  background: #4db6ac;
+  color: #000;
+}
+.teal.m100,
+.teal .m100 {
+  background: #26a69a;
+  color: #000;
+}
+.teal.p100,
+.teal .p100 {
+  background: #00897b;
+  color: #fff;
+}
+.teal.p200,
+.teal .p200 {
+  background: #00796b;
+  color: #fff;
+}
+.teal.p300,
+.teal .p300 {
+  background: #00695c;
+  color: #fff;
+}
+.teal.p400,
+.teal .p400 {
+  background: #004d40;
+  color: #fff;
+}
+.teal.a100,
+.teal .a100 {
+  background: #a7ffeb;
+  color: #000;
+}
+.teal.a200,
+.teal .a200 {
+  background: #64ffda;
+  color: #000;
+}
+.teal.a300,
+.teal .a300 {
+  background: #1de9b6;
+  color: #000;
+}
+.teal.a400,
+.teal .a400 {
+  background: #00bfa5;
+  color: #000;
+}

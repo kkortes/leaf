@@ -1,0 +1,69 @@
+.indigo {
+  background: #3f51b5;
+  color: #fff;
+}
+.indigo.m450,
+.indigo .m450 {
+  background: #e8eaf6;
+  color: #000;
+}
+.indigo.m400,
+.indigo .m400 {
+  background: #c5cae9;
+  color: #000;
+}
+.indigo.m300,
+.indigo .m300 {
+  background: #9fa8da;
+  color: #000;
+}
+.indigo.m200,
+.indigo .m200 {
+  background: #7986cb;
+  color: #fff;
+}
+.indigo.m100,
+.indigo .m100 {
+  background: #5c6bc0;
+  color: #fff;
+}
+.indigo.p100,
+.indigo .p100 {
+  background: #3949ab;
+  color: #fff;
+}
+.indigo.p200,
+.indigo .p200 {
+  background: #303f9f;
+  color: #fff;
+}
+.indigo.p300,
+.indigo .p300 {
+  background: #283593;
+  color: #fff;
+}
+.indigo.p400,
+.indigo .p400 {
+  background: #1a237e;
+  color: #fff;
+}
+.indigo.a100,
+.indigo .a100 {
+  background: #8c9eff;
+  color: #000;
+}
+.indigo.a200,
+.indigo .a200 {
+  background: #536dfe;
+  color: #fff;
+}
+.indigo.a300,
+.indigo .a300 {
+  background: #3d5afe;
+  color: #fff;
+}
+.indigo.a400,
+.indigo .a400 {
+  background: #304ffe;
+  color: #fff;
+}

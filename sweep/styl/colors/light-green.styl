@@ -1,0 +1,15 @@
+@import "all-colors"
+
+$colors = (m450 $light-green-50 $dark) (m400 $light-green-100 $dark) (m300 $light-green-200 $dark) (m200 $light-green-300 $dark) (m100 $light-green-400 $dark) (p100 $light-green-600 $dark) (p200 $light-green-700 $dark) (p300 $light-green-800 $light) (p400 $light-green-900 $light) (a100 $light-green-a100 $dark) (a200 $light-green-a200 $dark) (a300 $light-green-a300 $dark) (a400 $light-green-a400 $dark)
+
+setColors(colors)
+  colors = arguments if length(arguments) > 1
+  for color in colors
+    &.{color[0]},
+    .{color[0]}
+      background:color[1]
+      color:color[2]
+.light-green
+  background:$light-green
+  color:$dark
+  setColors($colors)

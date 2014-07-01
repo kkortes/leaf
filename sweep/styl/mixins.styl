@@ -1,0 +1,27 @@
+font-size($sizeValue)
+  $remValue = ($sizeValue / 10)
+  $pxValue = $sizeValue
+  font-size: $pxValue+"px"
+  font-size: $remValue+"rem"
+
+  $remLineHeightValue = ($remValue * 1.5)
+  $pxLineHeightValue = ($pxValue * 1.5)
+
+  line-height: $pxLineHeightValue+"px"
+  line-height: $remLineHeightValue+"rem"
+
+line-height($sizeValue)
+  $remValue = ($sizeValue / 10)
+  $pxValue = $sizeValue
+  line-height: $pxValue+"px"
+  line-height: $remValue+"rem"
+
+inline-block()
+  display:inline-block
+  *display:inline // IE7 inline-block hack
+  *zoom:1;
+
+border-radius($px)
+  -webkit-border-radius:$px
+  -moz-border-radius:$px
+  border-radius:$px

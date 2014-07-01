@@ -1,0 +1,651 @@
+/*
+ Topbot base styl-file
+ Fetches defaults from bootstrap with additions and overrides 
+*/
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: table;
+  height: 100%;
+  width: 100%;
+  html: , body;
+}
+html {
+  overflow-y: scroll;
+}
+footer,
+.bot,
+header,
+.top,
+#wrapper {
+  display: table-row;
+  height: 1px;
+}
+#wrapper {
+  height: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.crow {
+  text-align: center;
+  height: 100%;
+  font-size: 0;
+  padding: 0 15px;
+}
+.crow .w-1 {
+  width: 1%;
+}
+.crow .w-2 {
+  width: 2%;
+}
+.crow .w-3 {
+  width: 3%;
+}
+.crow .w-4 {
+  width: 4%;
+}
+.crow .w-5 {
+  width: 5%;
+}
+.crow .w-6 {
+  width: 6%;
+}
+.crow .w-7 {
+  width: 7%;
+}
+.crow .w-8 {
+  width: 8%;
+}
+.crow .w-9 {
+  width: 9%;
+}
+.crow .w-10 {
+  width: 10%;
+}
+.crow .w-11 {
+  width: 11%;
+}
+.crow .w-12 {
+  width: 12%;
+}
+.crow .w-13 {
+  width: 13%;
+}
+.crow .w-14 {
+  width: 14%;
+}
+.crow .w-15 {
+  width: 15%;
+}
+.crow .w-16 {
+  width: 16%;
+}
+.crow .w-17 {
+  width: 17%;
+}
+.crow .w-18 {
+  width: 18%;
+}
+.crow .w-19 {
+  width: 19%;
+}
+.crow .w-20 {
+  width: 20%;
+}
+.crow .w-21 {
+  width: 21%;
+}
+.crow .w-22 {
+  width: 22%;
+}
+.crow .w-23 {
+  width: 23%;
+}
+.crow .w-24 {
+  width: 24%;
+}
+.crow .w-25 {
+  width: 25%;
+}
+.crow .w-26 {
+  width: 26%;
+}
+.crow .w-27 {
+  width: 27%;
+}
+.crow .w-28 {
+  width: 28%;
+}
+.crow .w-29 {
+  width: 29%;
+}
+.crow .w-30 {
+  width: 30%;
+}
+.crow .w-31 {
+  width: 31%;
+}
+.crow .w-32 {
+  width: 32%;
+}
+.crow .w-33 {
+  width: 33%;
+}
+.crow .w-34 {
+  width: 34%;
+}
+.crow .w-35 {
+  width: 35%;
+}
+.crow .w-36 {
+  width: 36%;
+}
+.crow .w-37 {
+  width: 37%;
+}
+.crow .w-38 {
+  width: 38%;
+}
+.crow .w-39 {
+  width: 39%;
+}
+.crow .w-40 {
+  width: 40%;
+}
+.crow .w-41 {
+  width: 41%;
+}
+.crow .w-42 {
+  width: 42%;
+}
+.crow .w-43 {
+  width: 43%;
+}
+.crow .w-44 {
+  width: 44%;
+}
+.crow .w-45 {
+  width: 45%;
+}
+.crow .w-46 {
+  width: 46%;
+}
+.crow .w-47 {
+  width: 47%;
+}
+.crow .w-48 {
+  width: 48%;
+}
+.crow .w-49 {
+  width: 49%;
+}
+.crow .w-50 {
+  width: 50%;
+}
+.crow .w-51 {
+  width: 51%;
+}
+.crow .w-52 {
+  width: 52%;
+}
+.crow .w-53 {
+  width: 53%;
+}
+.crow .w-54 {
+  width: 54%;
+}
+.crow .w-55 {
+  width: 55%;
+}
+.crow .w-56 {
+  width: 56%;
+}
+.crow .w-57 {
+  width: 57%;
+}
+.crow .w-58 {
+  width: 58%;
+}
+.crow .w-59 {
+  width: 59%;
+}
+.crow .w-60 {
+  width: 60%;
+}
+.crow .w-61 {
+  width: 61%;
+}
+.crow .w-62 {
+  width: 62%;
+}
+.crow .w-63 {
+  width: 63%;
+}
+.crow .w-64 {
+  width: 64%;
+}
+.crow .w-65 {
+  width: 65%;
+}
+.crow .w-66 {
+  width: 66%;
+}
+.crow .w-67 {
+  width: 67%;
+}
+.crow .w-68 {
+  width: 68%;
+}
+.crow .w-69 {
+  width: 69%;
+}
+.crow .w-70 {
+  width: 70%;
+}
+.crow .w-71 {
+  width: 71%;
+}
+.crow .w-72 {
+  width: 72%;
+}
+.crow .w-73 {
+  width: 73%;
+}
+.crow .w-74 {
+  width: 74%;
+}
+.crow .w-75 {
+  width: 75%;
+}
+.crow .w-76 {
+  width: 76%;
+}
+.crow .w-77 {
+  width: 77%;
+}
+.crow .w-78 {
+  width: 78%;
+}
+.crow .w-79 {
+  width: 79%;
+}
+.crow .w-80 {
+  width: 80%;
+}
+.crow .w-81 {
+  width: 81%;
+}
+.crow .w-82 {
+  width: 82%;
+}
+.crow .w-83 {
+  width: 83%;
+}
+.crow .w-84 {
+  width: 84%;
+}
+.crow .w-85 {
+  width: 85%;
+}
+.crow .w-86 {
+  width: 86%;
+}
+.crow .w-87 {
+  width: 87%;
+}
+.crow .w-88 {
+  width: 88%;
+}
+.crow .w-89 {
+  width: 89%;
+}
+.crow .w-90 {
+  width: 90%;
+}
+.crow .w-91 {
+  width: 91%;
+}
+.crow .w-92 {
+  width: 92%;
+}
+.crow .w-93 {
+  width: 93%;
+}
+.crow .w-94 {
+  width: 94%;
+}
+.crow .w-95 {
+  width: 95%;
+}
+.crow .w-96 {
+  width: 96%;
+}
+.crow .w-97 {
+  width: 97%;
+}
+.crow .w-98 {
+  width: 98%;
+}
+.crow .w-99 {
+  width: 99%;
+}
+.crow .w-100 {
+  width: 100%;
+}
+.crow .ws-1 {
+  width: 8.333333333333334%;
+}
+.crow .ws-2 {
+  width: 16.666666666666668%;
+}
+.crow .ws-3 {
+  width: 25%;
+}
+.crow .ws-4 {
+  width: 33.333333333333336%;
+}
+.crow .ws-5 {
+  width: 41.666666666666664%;
+}
+.crow .ws-6 {
+  width: 50%;
+}
+.crow .ws-7 {
+  width: 58.333333333333336%;
+}
+.crow .ws-8 {
+  width: 66.66666666666667%;
+}
+.crow .ws-9 {
+  width: 75%;
+}
+.crow .ws-10 {
+  width: 83.33333333333333%;
+}
+.crow .ws-11 {
+  width: 91.66666666666667%;
+}
+.crow .ws-12 {
+  width: 100%;
+}
+.crow .crow {
+  text-align: center;
+  font-size: 0;
+  padding: 0;
+}
+.crow.fly > div:first-child:nth-last-child(i),
+.crow.fly > div:first-child:nth-last-child(i) ~ div {
+  width: 100%;
+}
+.crow.fly > div:first-child:nth-last-child(i),
+.crow.fly > div:first-child:nth-last-child(i) ~ div {
+  width: 50%;
+}
+.crow.fly > div:first-child:nth-last-child(i),
+.crow.fly > div:first-child:nth-last-child(i) ~ div {
+  width: 33.333333333333336%;
+}
+.crow.fly > div:first-child:nth-last-child(i),
+.crow.fly > div:first-child:nth-last-child(i) ~ div {
+  width: 25%;
+}
+.crow.fly > div:first-child:nth-last-child(i),
+.crow.fly > div:first-child:nth-last-child(i) ~ div {
+  width: 20%;
+}
+.crow.fly > div:first-child:nth-last-child(i),
+.crow.fly > div:first-child:nth-last-child(i) ~ div {
+  width: 16.666666666666668%;
+}
+.crow.fly > div:first-child:nth-last-child(i),
+.crow.fly > div:first-child:nth-last-child(i) ~ div {
+  width: 14.285714285714286%;
+}
+.crow.fly > div:first-child:nth-last-child(i),
+.crow.fly > div:first-child:nth-last-child(i) ~ div {
+  width: 12.5%;
+}
+.crow.fly > div:first-child:nth-last-child(i),
+.crow.fly > div:first-child:nth-last-child(i) ~ div {
+  width: 11.11111111111111%;
+}
+.crow.fly > div:first-child:nth-last-child(i),
+.crow.fly > div:first-child:nth-last-child(i) ~ div {
+  width: 10%;
+}
+.crow.fly > div:first-child:nth-last-child(i),
+.crow.fly > div:first-child:nth-last-child(i) ~ div {
+  width: 9.090909090909092%;
+}
+.crow.fly > div:first-child:nth-last-child(i),
+.crow.fly > div:first-child:nth-last-child(i) ~ div {
+  width: 8.333333333333334%;
+}
+.crow.no-gutter {
+  padding: 0;
+}
+.crow.no-gutter > div {
+  padding: 0;
+}
+.crow.up > div {
+  vertical-align: top;
+}
+.crow.down > div {
+  vertical-align: bottom;
+}
+.crow > div {
+  vertical-align: middle;
+  font-size: 14px;
+  text-align: left;
+  display: inline-block;
+  padding: 0 15px;
+}
+.crow > div.up {
+  vertical-align: top;
+}
+.crow > div.down {
+  vertical-align: bottom;
+}
+.crow:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container > .crow {
+  margin: -15px;
+  padding: 0 !important;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  body .container {
+    width: 750px;
+  }
+  body .container .crow > .crow.crow {
+    height: auto;
+  }
+  body .container .crow > .crow.crow > div {
+    display: block;
+    width: 100%;
+  }
+  body .container .crow > .crow.crow:before {
+    content: '';
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  body .container {
+    width: auto;
+  }
+  body .crow {
+    height: auto !important;
+  }
+  body .crow > div {
+    display: block;
+    width: auto !important;
+  }
+  body .crow:before {
+    content: '';
+    display: none;
+  }
+}
+.mod-row {
+  padding-bottom: 15px;
+}
+.mod-row .module {
+  padding-bottom: 15px;
+/* BLUE PRINT */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+}
+body:before {
+  position: fixed;
+  visibility: hidden;
+  *display: none;
+}
+img {
+  max-width: 100%;
+}
+.block {
+  display: block;
+}
+#wrapper .fullwidth {
+  height: 100%;
+  padding-bottom: 50px;
+}
+header .fullwidth,
+.top .fullwidth {
+  border-bottom: 1px solid #808080;
+}
+footer .fullwidth,
+.bot .fullwidth {
+  border-top: 1px solid #808080;
+}
+@media (min-width: 1200px) {
+  body:before {
+    content: 'desktop';
+  }
+}
+.text {
+  overflow: hidden;
+}
+.slider {
+  overflow: hidden;
+}
+.relative {
+  position: relative;
+}
+.relative:hover .reverser {
+  display: block;
+}
+.reverser {
+  position: absolute;
+  display: none;
+}
+.reverser .dropdown {
+  position: absolute;
+}
+.reverser.down {
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: auto;
+  width: 100%;
+  height: 0;
+}
+.reverser.down .dropdown {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.reverser.right {
+  z-index: 2;
+  bottom: 0;
+  top: 0;
+  right: auto;
+  left: 100%;
+  height: 100%;
+  width: 100%;
+}
+.reverser.right .dropdown {
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.reverser.left {
+  z-index: 3;
+  bottom: 0;
+  top: 0;
+  left: auto;
+  right: 100%;
+  height: 100%;
+  width: 100%;
+}
+.reverser.left .dropdown {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.reverser.up {
+  z-index: 4;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: auto;
+  width: 100%;
+  height: 0;
+}
+.reverser.up .dropdown {
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+.wrap {
+  text-align: center;
+  background: #008000;
+  height: 300px;
+}
+.wrap:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+.wrap .inner {
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+}

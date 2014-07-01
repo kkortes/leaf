@@ -1,0 +1,15 @@
+@import "all-colors"
+
+$colors = (m450 $indigo-50 $dark) (m400 $indigo-100 $dark) (m300 $indigo-200 $dark) (m200 $indigo-300 $light) (m100 $indigo-400 $light) (p100 $indigo-600 $light) (p200 $indigo-700 $light) (p300 $indigo-800 $light) (p400 $indigo-900 $light) (a100 $indigo-a100 $dark) (a200 $indigo-a200 $light) (a300 $indigo-a300 $light) (a400 $indigo-a400 $light)
+
+setColors(colors)
+  colors = arguments if length(arguments) > 1
+  for color in colors
+    &.{color[0]},
+    .{color[0]}
+      background:color[1]
+      color:color[2]
+.indigo
+  background:$indigo
+  color:$light
+  setColors($colors)

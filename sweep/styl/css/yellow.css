@@ -1,0 +1,69 @@
+.yellow {
+  background: #ffeb3b;
+  color: #000;
+}
+.yellow.m450,
+.yellow .m450 {
+  background: #fffde7;
+  color: #000;
+}
+.yellow.m400,
+.yellow .m400 {
+  background: #fff9c4;
+  color: #000;
+}
+.yellow.m300,
+.yellow .m300 {
+  background: #fff59d;
+  color: #000;
+}
+.yellow.m200,
+.yellow .m200 {
+  background: #fff176;
+  color: #000;
+}
+.yellow.m100,
+.yellow .m100 {
+  background: #ffee58;
+  color: #000;
+}
+.yellow.p100,
+.yellow .p100 {
+  background: #fdd835;
+  color: #000;
+}
+.yellow.p200,
+.yellow .p200 {
+  background: #fbc02d;
+  color: #000;
+}
+.yellow.p300,
+.yellow .p300 {
+  background: #f9a825;
+  color: #000;
+}
+.yellow.p400,
+.yellow .p400 {
+  background: #f57f17;
+  color: #000;
+}
+.yellow.a100,
+.yellow .a100 {
+  background: #ffff8d;
+  color: #000;
+}
+.yellow.a200,
+.yellow .a200 {
+  background: #ff0;
+  color: #000;
+}
+.yellow.a300,
+.yellow .a300 {
+  background: #ffea00;
+  color: #000;
+}
+.yellow.a400,
+.yellow .a400 {
+  background: #ffd600;
+  color: #000;
+}

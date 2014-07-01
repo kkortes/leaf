@@ -1,0 +1,18 @@
+// Tablet, both orientations
+@media (min-width: $screen-sm-min) and (max-width: $screen-md-max)
+  body
+    // Your code here
+  
+  // Tablet, vertical
+  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max)
+    body
+      // Your code here
+      &:before
+        content:'tablet vertical'
+
+  // Tablet, horizontal
+  @media (min-width: $screen-md-min) and (max-width: $screen-md-max)
+    body
+      // Your code here
+      &:before
+        content:"tablet horizontal"
