@@ -1,14 +1,26 @@
 @import "colors/all-colors"
 
-h1, h2, h3, h4, h5, h6
-  font-weight:normal
-  margin-bottom:20px
 body
-  -webkit-font-smoothing:antialiased
+  smooth-font()
   &:before
     position:fixed
     visibility:hidden
     *display:none
+h1
+  font-size:34px
+  line-height:51px
+h2
+  font-size:20px
+  line-height:30px
+h3
+  font-size:16px
+  line-height:24px
+h4
+  font-size:14px
+  line-height:21px
+h5
+  font-size:12px
+  line-height:18px
 img
   max-width:100%
 .block
@@ -16,12 +28,16 @@ img
 #wrapper
   .fullwidth
     height:100%
-    padding-bottom:50px
 header,
 .top
   .fullwidth
-    border-bottom:1px solid $grey-300
+    depth(2)
 footer,
 .bot
   .fullwidth
-    border-top:1px solid $grey-300
+    depth(2)
+
+hr
+  border:0
+  margin:0
+  border-bottom:1px solid $weak-color

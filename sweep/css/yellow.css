@@ -1,0 +1,124 @@
+.yellow {
+  background-color: #ffeb3b;
+  color: $black;
+}
+.yellow a {
+  color: $black;
+}
+.yellow.m450,
+.yellow .m450 {
+  background-color: #fffde7;
+  color: $black;
+}
+.yellow.m450 a,
+.yellow .m450 a {
+  color: $white;
+}
+.yellow.m400,
+.yellow .m400 {
+  background-color: #fff9c4;
+  color: $black;
+}
+.yellow.m400 a,
+.yellow .m400 a {
+  color: $white;
+}
+.yellow.m300,
+.yellow .m300 {
+  background-color: #fff59d;
+  color: $black;
+}
+.yellow.m300 a,
+.yellow .m300 a {
+  color: $white;
+}
+.yellow.m200,
+.yellow .m200 {
+  background-color: #fff176;
+  color: $black;
+}
+.yellow.m200 a,
+.yellow .m200 a {
+  color: $white;
+}
+.yellow.m100,
+.yellow .m100 {
+  background-color: #ffee58;
+  color: $black;
+}
+.yellow.m100 a,
+.yellow .m100 a {
+  color: $white;
+}
+.yellow.p100,
+.yellow .p100 {
+  background-color: #fdd835;
+  color: $black;
+}
+.yellow.p100 a,
+.yellow .p100 a {
+  color: $white;
+}
+.yellow.p200,
+.yellow .p200 {
+  background-color: #fbc02d;
+  color: $black;
+}
+.yellow.p200 a,
+.yellow .p200 a {
+  color: $white;
+}
+.yellow.p300,
+.yellow .p300 {
+  background-color: #f9a825;
+  color: $black;
+}
+.yellow.p300 a,
+.yellow .p300 a {
+  color: $white;
+}
+.yellow.p400,
+.yellow .p400 {
+  background-color: #f57f17;
+  color: $black;
+}
+.yellow.p400 a,
+.yellow .p400 a {
+  color: $white;
+}
+.yellow.a100,
+.yellow .a100 {
+  background-color: #ffff8d;
+  color: $black;
+}
+.yellow.a100 a,
+.yellow .a100 a {
+  color: $white;
+}
+.yellow.a200,
+.yellow .a200 {
+  background-color: #ff0;
+  color: $black;
+}
+.yellow.a200 a,
+.yellow .a200 a {
+  color: $white;
+}
+.yellow.a300,
+.yellow .a300 {
+  background-color: #ffea00;
+  color: $black;
+}
+.yellow.a300 a,
+.yellow .a300 a {
+  color: $white;
+}
+.yellow.a400,
+.yellow .a400 {
+  background-color: #ffd600;
+  color: $black;
+}
+.yellow.a400 a,
+.yellow .a400 a {
+  color: $white;
+}

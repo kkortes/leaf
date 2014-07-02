@@ -4,8 +4,14 @@
   overflow:hidden
 .slider
   overflow:hidden
-hr
-  border-color:$grey
+.clearfix
+  clearfix()
+.pull-left
+  float:left
+.pull-right
+  float:right
+.inline-block
+  inline()
 ul
   &.unstyled
     list-style:none
@@ -13,8 +19,9 @@ ul
     padding:0
   &.inline
     list-style:none
+    padding:0
     li
-      inline-block()
+      inline()
 .relative
   position:relative
   &:hover
@@ -79,17 +86,3 @@ ul
       right:0
       left:0
       width:100%
-.wrap
-  text-align:center
-  background:green
-  height:300px
-  &:before
-    content: ''
-    display: inline-block
-    height: 100%
-    vertical-align: middle
-    margin-right: -0.25em // Adjusts for spacing
-  .inner
-    display: inline-block
-    vertical-align: middle
-    width: 300px

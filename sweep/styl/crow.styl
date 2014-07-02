@@ -1,10 +1,4 @@
-/*
-  Author: Kim Korte
-  Twitter: @kortekim
-  Created: 25/01-2014
-  Last modified: 12/03-2014
-*/
-
+@import "variables"
 
 $screen-xs-min =      481px;
 $screen-phone =       $screen-xs-min;
@@ -22,15 +16,10 @@ $screen-xs-max =      ($screen-sm-min - 1)
 $screen-sm-max =      ($screen-md-min - 1)
 $screen-md-max =      ($screen-lg-min - 1)
 
-
-$font-size = 14px
 $auto-widths-iterations = 12
 $locked-widths-iterations = 100
 $unit-widths-iterations = 12
 $gutter = 15
-
-*, *:before, *:after
-  box-sizing:border-box
 
 auto-widths(nums)
   for i in 1..nums
@@ -101,7 +90,7 @@ destroy-all()
   .container
     width:auto
   .crow
-    height:auto !important
+    //height:auto !important
     > div
       display:block
       width:auto !important

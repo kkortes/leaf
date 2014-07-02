@@ -1,4 +1,4 @@
-<div class="bot">
+<div class="bot blue p200">
   <div class="fullwidth">
     <div class="container">
       <div class="crow">

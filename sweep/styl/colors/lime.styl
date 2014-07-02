@@ -7,9 +7,13 @@ setColors(colors)
   for color in colors
     &.{color[0]},
     .{color[0]}
-      background:color[1]
+      background-color:color[1]
       color:color[2]
+      a
+        color:color[2]
 .lime
-  background:$lime
+  background-color:$lime
   color:$dark
+  a
+    color:$dark
   setColors($colors)
