@@ -1,0 +1,47 @@
+input[type=submit] {
+  -webkit-appearance: none;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 90%;
+  width: auto !important;
+  transition: all 0.2s ease;
+}
+input[type=submit].disabled:hover {
+  background-color: none;
+}
+input[type=submit]:focus {
+  outline: 0;
+}
+input[type=submit]:hover {
+  color: #e6e6e6;
+}
+input[type=submit].flat {
+  color: inherit;
+}
+input[type=submit].disabled:hover,
+input[type=submit]:disabled:hover {
+  background-color: none;
+}
+.button {
+  padding: 10px 20px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 90%;
+  width: auto !important;
+  transition: all 0.2s ease;
+}
+.button.disabled:hover {
+  background-color: none;
+}
+.button.flat {
+  background: none;
+}
+.button.flat.disabled:hover {
+  background-color: none;
+}
+a.button:hover {
+  text-decoration: none;
+  color: #e6e6e6;
+}

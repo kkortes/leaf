@@ -1,0 +1,53 @@
+body
+  font-family: $font-family
+  font-size: $font-size
+  line-height: $line-height
+  color: $text-color
+  background-color: $bg-color
+  smooth-font()
+  &:before
+    position:fixed
+    visibility:hidden
+    *display:none
+a
+  color: $link-color
+  text-decoration: none
+  &:hover,
+  &:focus
+    color: $link-hover-color
+    text-decoration: underline
+h1
+  font-size:34px
+  line-height:51px
+h2
+  font-size:20px
+  line-height:30px
+h3
+  font-size:16px
+  line-height:24px
+h4
+  font-size:14px
+  line-height:21px
+h5
+  font-size:12px
+  line-height:18px
+img
+  max-width:100%
+.block
+  display:block
+#wrapper
+  .fullwidth
+    height:100%
+header,
+.top
+  .fullwidth
+    depth(2)
+footer,
+.bot
+  .fullwidth
+    depth(2)
+
+hr
+  border:0
+  margin:0
+  border-bottom:1px solid $weak-color

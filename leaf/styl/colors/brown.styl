@@ -1,0 +1,169 @@
+get-brown(s = false)
+  if s == 50
+    rgba(#efebe9)
+  else if s == 100
+    rgba(#d7ccc8)
+  else if s == 200
+    rgba(#bcaaa4)
+  else if s == 300
+    rgba(#a1887f)
+  else if s == 400
+    rgba(#8d6e63)
+  else if s == 500
+    rgba(#795548)
+  else if s == 600
+    rgba(#6d4c41)
+  else if s == 700
+    rgba(#5d4037)
+  else if s == 800
+    rgba(#4e342e)
+  else if s == 900
+    rgba(#3e2723)
+  else if s == 1000
+    rgba(#d7ccc8)
+  else if s == 1100
+    rgba(#bcaaa4)
+  else if s == 1200
+    rgba(#a1887f)
+  else if s == 1300
+    rgba(#8d6e63)
+  else 
+    rgba(#795548)
+fill-brown(s = false)
+  background-color:get-brown(s)
+text-brown(s = false)
+  color:get-brown(s)
+border-brown(s = false)
+  border-color:get-brown(s)
+.fill-brown
+  fill-brown()
+  .fill-minus-1,
+  &.fill-minus-1
+    fill-brown(400)
+  .fill-minus-2,
+  &.fill-minus-2
+    fill-brown(300)
+  .fill-minus-3,
+  &.fill-minus-3
+    fill-brown(200)
+  .fill-minus-4,
+  &.fill-minus-4
+    fill-brown(100)
+  .fill-minus-5,
+  &.fill-minus-5
+    fill-brown(50)
+  .fill-plus-1,
+  &.fill-plus-1
+    fill-brown(600)
+  .fill-plus-2,
+  &.fill-plus-2
+    fill-brown(700)
+  .fill-plus-3,
+  &.fill-plus-3
+    fill-brown(800)
+  .fill-plus-4,
+  &.fill-plus-4
+    fill-brown(900)
+  .fill-accent-1,
+  &.fill-accent-1
+    fill-brown(1000)
+  .fill-accent-2,
+  &.fill-accent-2
+    fill-brown(1100)
+  .fill-accent-3,
+  &.fill-accent-3
+    fill-brown(1200)
+  .fill-accent-4,
+  &.fill-accent-4
+    fill-brown(1300)
+  .fill-base,
+  &.fill-base
+    fill-brown(500)
+.text-brown
+  text-brown()
+  .text-minus-1,
+  &.text-minus-1
+    text-brown(400)
+  .text-minus-2,
+  &.text-minus-2
+    text-brown(300)
+  .text-minus-3,
+  &.text-minus-3
+    text-brown(200)
+  .text-minus-4,
+  &.text-minus-4
+    text-brown(100)
+  .text-minus-5,
+  &.text-minus-5
+    text-brown(50)
+  .text-plus-1,
+  &.text-plus-1
+    text-brown(600)
+  .text-plus-2,
+  &.text-plus-2
+    text-brown(700)
+  .text-plus-3,
+  &.text-plus-3
+    text-brown(800)
+  .text-plus-4,
+  &.text-plus-4
+    text-brown(900)
+  .text-accent-1,
+  &.text-accent-1
+    text-brown(1000)
+  .text-accent-2,
+  &.text-accent-2
+    text-brown(1100)
+  .text-accent-3,
+  &.text-accent-3
+    text-brown(1200)
+  .text-accent-4,
+  &.text-accent-4
+    text-brown(1300)
+  .text-base,
+  &.text-base
+    text-brown(500)
+.border-brown
+  border-brown()
+  .border-minus-1,
+  &.border-minus-1
+    border-brown(400)
+  .border-minus-2,
+  &.border-minus-2
+    border-brown(300)
+  .border-minus-3,
+  &.border-minus-3
+    border-brown(200)
+  .border-minus-4,
+  &.border-minus-4
+    border-brown(100)
+  .border-minus-5,
+  &.border-minus-5
+    border-brown(50)
+  .border-plus-1,
+  &.border-plus-1
+    border-brown(600)
+  .border-plus-2,
+  &.border-plus-2
+    border-brown(700)
+  .border-plus-3,
+  &.border-plus-3
+    border-brown(800)
+  .border-plus-4,
+  &.border-plus-4
+    border-brown(900)
+  .border-accent-1,
+  &.border-accent-1
+    border-brown(1000)
+  .border-accent-2,
+  &.border-accent-2
+    border-brown(1100)
+  .border-accent-3,
+  &.border-accent-3
+    border-brown(1200)
+  .border-accent-4,
+  &.border-accent-4
+    border-brown(1300)
+  .border-base,
+  &.border-base
+    border-brown(500)

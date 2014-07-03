@@ -1,6 +1,6 @@
 <div>
   <?
-    $icons = @file_get_contents($app->root.'/sweep/fonts/icomoon/selection.json');
+    $icons = @file_get_contents($app->root.'/leaf/fonts/icomoon/selection.json');
     $icons = json_decode($icons);
     
     $wrappers = array(
@@ -20,8 +20,11 @@
       $color = $colors[rand(0, count($colors)-1)];
       ?>
       <div class="w-5">
-        <div class="<?=$wrapper?> <?=$color?>">
-          <i class="icon icon-<?=$icon->properties->name?>"></i>
+        <div class="<?=$wrapper?> fill-<?=$color?> fill-minus-2">
+          <i>
+            <i class="icon icon-<?=$icon->properties->name?>"></i><br />
+            <?=$icon->properties->name?>
+          </i>
         </div>
       </div>
       <?

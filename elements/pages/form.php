@@ -52,7 +52,7 @@
 
     <div class="ws-12">
       <div class="input">
-        <input type="submit" class="button blue" value="Submit" />
+        <input type="submit" class="button fill-blue text-white" value="Submit" />
       </div>
     </div>
 

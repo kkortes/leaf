@@ -1,0 +1,101 @@
+.relative {
+  position: relative;
+}
+.relative:hover .drop {
+  visibility: visible;
+  opacity: 1;
+}
+.drop {
+  position: absolute;
+  transition: all 0.2s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+}
+.drop.up {
+  top: auto;
+  bottom: 100%;
+}
+.drop.up-left {
+  top: auto;
+  bottom: 100%;
+  left: 0;
+  right: auto;
+}
+.drop.up-left.max {
+  width: 100%;
+}
+.drop.up-right {
+  top: auto;
+  bottom: 100%;
+  right: 0;
+  left: auto;
+}
+.drop.up-right.max {
+  width: 100%;
+}
+.drop.down {
+  top: 100%;
+  bottom: auto;
+}
+.drop.down-left {
+  top: 100%;
+  bottom: auto;
+  left: 0;
+  right: auto;
+}
+.drop.down-left.max {
+  width: 100%;
+}
+.drop.down-right {
+  top: 100%;
+  bottom: auto;
+  right: 0;
+  left: auto;
+}
+.drop.down-right.max {
+  width: 100%;
+}
+.drop.left {
+  left: auto;
+  right: 100%;
+}
+.drop.left-down {
+  left: auto;
+  right: 100%;
+  top: 0;
+  bottom: auto;
+}
+.drop.left-down.max {
+  width: 100%;
+}
+.drop.left-up {
+  left: auto;
+  right: 100%;
+  bottom: 0;
+  top: auto;
+}
+.drop.left-up.max {
+  width: 100%;
+}
+.drop.right {
+  right: auto;
+  left: 100%;
+}
+.drop.right-down {
+  right: auto;
+  left: 100%;
+  top: 0;
+  bottom: auto;
+}
+.drop.right-down.max {
+  width: 100%;
+}
+.drop.right-up {
+  right: auto;
+  left: 100%;
+  bottom: 0;
+  top: auto;
+}
+.drop.right-up.max {
+  width: 100%;
+}

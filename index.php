@@ -1,7 +1,7 @@
 <? 
   include_once "App.php";
-  $app = new App(array('functions'));
-  
+  $app = new App(array('functions', 'classes'));
+  //Colors::writeToFile();
   $app->pointer = 'elements/';
   
   echo $app->get('header');

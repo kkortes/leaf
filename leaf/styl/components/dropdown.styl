@@ -1,0 +1,95 @@
+.relative
+  position:relative
+  &:hover
+    .drop
+      visibility:visible
+      opacity:1
+put-down(stick = false)
+  if stick
+    top:0
+    bottom:auto
+  else
+    top:100%
+    bottom:auto
+
+put-up(stick = false)
+  if stick
+    bottom:0
+    top:auto
+  else
+    top:auto
+    bottom:100%
+put-left(stick = false)
+  if stick
+    left:0
+    right:auto
+  else
+    left:auto
+    right:100%
+put-right(stick = false)
+  if stick
+    right:0
+    left:auto
+  else
+    right:auto
+    left:100%
+set-width()
+  width:100%
+.drop
+  position:absolute
+  transition:all .2s ease-in-out
+  visibility:hidden
+  opacity:0
+  font-reset()
+  base-padding()
+  &.up
+    put-up()
+  &.up-left
+    put-up()
+    put-left(true)
+    &.max
+      set-width()
+  &.up-right
+    put-up()
+    put-right(true)
+    &.max
+      set-width()
+
+  &.down
+    put-down()
+  &.down-left
+    put-down()
+    put-left(true)
+    &.max
+      set-width()
+  &.down-right
+    put-down()
+    put-right(true)
+    &.max
+      set-width()
+
+  &.left
+    put-left()
+  &.left-down
+    put-left()
+    put-down(true)
+    &.max
+      set-width()
+  &.left-up
+    put-left()
+    put-up(true)
+    &.max
+      set-width()
+
+  &.right
+    put-right()
+  &.right-down
+    put-right()
+    put-down(true)
+    &.max
+      set-width()
+  &.right-up
+    put-right()
+    put-up(true)
+    &.max
+      set-width()
