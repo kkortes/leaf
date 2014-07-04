@@ -19,7 +19,8 @@
 			</div>
 		</div>
 
-		<div style="height:100px;"></div>
+		<div class="spacer"></div>
+		<div class="spacer"></div>
 
 		<div class="crow">
 			<div>
@@ -39,7 +40,8 @@
 			</div>
 		</div>
 
-		<div style="height:100px;"></div>
+		<div class="spacer"></div>
+		<div class="spacer"></div>
 		
 		<div class="crow">
 			<div>
@@ -59,7 +61,8 @@
 			</div>
 		</div>
 
-		<div style="height:100px;"></div>
+		<div class="spacer"></div>
+		<div class="spacer"></div>
 		
 		<div class="crow">
 			<div>
@@ -81,7 +84,8 @@
 
 	</div>
 
-	<div style="width:50px;"></div>
+	<div class="spacer"></div>
+	<div class="spacer"></div>
 
 	<div>
 
@@ -103,7 +107,8 @@
 			</div>
 		</div>
 
-		<div style="height:100px;"></div>
+		<div class="spacer"></div>
+		<div class="spacer"></div>
 
 		<div class="crow">
 			<div>
@@ -123,7 +128,8 @@
 			</div>
 		</div>
 
-		<div style="height:100px;"></div>
+		<div class="spacer"></div>
+		<div class="spacer"></div>
 		
 		<div class="crow">
 			<div>
@@ -143,7 +149,8 @@
 			</div>
 		</div>
 
-		<div style="height:100px;"></div>
+		<div class="spacer"></div>
+		<div class="spacer"></div>
 		
 		<div class="crow">
 			<div>

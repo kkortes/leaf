@@ -1,0 +1,63 @@
+.onoffswitch
+  position: relative
+  -webkit-user-select:none
+  -moz-user-select:none
+  -ms-user-select: none
+  inline()
+  .checkbox
+    display: none
+    &:checked + .switch .inner
+      margin-left:-100%
+    &:checked + .switch .handle
+      right:50%; 
+  .switch
+    margin:0
+    display:block
+    overflow:hidden
+    cursor:pointer
+    border:1px solid $weak-color
+    border-radius:3px
+    height:100%
+    .inner
+      height:inherit
+      width: 200%
+      transition: margin 0.3s ease-in
+      text-transform:uppercase
+      .on
+        margin:0 -1px 0 -2px
+        text-white()
+        fill-cyan()
+      .on, .off
+        height:inherit
+        width:50%
+        -moz-box-sizing: border-box
+        -webkit-box-sizing: border-box
+        box-sizing: border-box
+        font-size:0
+        inline()
+        text-white()
+        .value
+          padding:8px 8px
+          vertical-align:middle
+          width:50%
+          line-height:24px
+          font-size:14px
+          text-align:center
+          inline()
+      .off
+        text-align:right
+        fill-grey(300)
+        text-white()
+        .value
+          padding-right:16px
+    .handle
+      position:absolute
+      top:0
+      bottom:0
+      right:0px
+      width: 50%
+      border:1px solid $weak-color
+      border-radius:2px
+      display: block
+      transition: all 0.3s ease-in
+      fill-white()

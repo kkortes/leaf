@@ -13,7 +13,7 @@
 	foreach($colors as $color => $data) {
 		if($i!=0 && $i%4==0) echo '</div><div class="crow fly no-gutter">'
 ?>
-	<div class="fill-<?=$color?>">
+	<div class="fill-<?=$color?> tile">
 		<h3 style="padding:5px 10px;"><?=ucfirst($color)?></h3>
 		<ul class="unstyled">
 		<? 

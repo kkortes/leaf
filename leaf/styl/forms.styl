@@ -1,15 +1,23 @@
-input[type=text]
+defaults()
   width:100%
+  background:none
+  border:0
+  border-bottom:1px solid $weak-color
+  padding:5px 0 3px 0;
   smooth-font()
+  &:focus
+    outline:0
+input[type=text]
+  defaults()
 textarea
-  width:100%
   max-width:100%
   min-width:100%
-  smooth-font()
+  min-height:100px
+  defaults()
 select
   width:100%
 label,
 .label
   font-size:80%
-  color:$grey
+  text-grey()
   inline()

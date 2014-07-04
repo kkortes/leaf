@@ -1,0 +1,14 @@
+.circle {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100%;
+}
+.circle .icon {
+  font-size: 30px;
+}
+a.circle {
+  display: block;
+}
+a.circle:hover {
+  text-decoration: none;
+}
