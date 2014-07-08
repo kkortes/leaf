@@ -13,7 +13,6 @@ rows = {
   'mod-lists .list-item' : [
     'pull-left',
     'pull-right',
-    'text'
   ]
 }
 
@@ -43,7 +42,6 @@ makeSquare = (elements = ['resize'], angle = 'height') ->
       obj = $(this)
       if angle is 'height'
         value = obj.innerWidth()
-        console.log value
         reset = 'width'
       else
         value = obj.outerHeight()
@@ -77,12 +75,54 @@ activateLists = () ->
         children.slideDown 'fast'
       return false
 
+slide = (obj, nextslide, nav) ->
+  marginleft = nextslide*100
+  obj.children('.stripe').animate {
+    'marginLeft' : '-'+marginleft+'%'
+  }
+
+  nav.find('a').removeClass 'active'
+  nav.find('a:eq('+nextslide+')').addClass 'active'
+
+  if (nextslide+1) is obj.find('.slide').length
+    return 0
+  else
+    return nextslide+1
+
+initSlider = () ->
+  sliders = $('.slider')
+  interval = 8000 #milliseconds
+  sliders.each ->
+    slider = $(this)
+    nav = slider.find('.slider-nav')
+
+    if slider.find('.stripe.crow .slide').length > 1
+      slider.data 'interval', setInterval ->
+        if typeof slider.data('nextslide') is 'undefined'
+          nextslide = 1
+          slider.data 'nextslide', nextslide
+        else
+          console.log 'now here'
+          nextslide = slider.data 'nextslide'
+        
+        slider.data 'nextslide', slide(slider, nextslide, nav)
+      , interval
+
+    nav.find('a').on 'click', ->
+      clearInterval(slider.data('interval'))
+      index = nav.find('a').index(this)
+      console.log index
+      slide(slider, index, nav)
+      return false
+  return
+
 init = () ->
   setTimeout ->
     makeSquare(elements)
     alignChildren(rows)
-  , 25
+  , 100
   checkResize()
   activateLists()
+  initSlider()
 
 init()

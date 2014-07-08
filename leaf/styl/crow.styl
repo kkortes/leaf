@@ -87,8 +87,6 @@ unit-widths(nums)
     margin:0 (- $gutter * 1px)
     padding:0 !important
 destroy-all()
-  .container
-    width:auto
   .crow
     //height:auto !important
     > div
@@ -136,7 +134,11 @@ destroy-crow()
 // Smartphone, both orientations
 @media (max-width: $screen-xs-max)
   body
-    destroy-all()
+    .container
+      width:auto
+    .crow
+      &:not(.keep-alive)
+        destroy-crow()
 
   // Smartphone, vertical
   @media (max-width: $screen-xs-min)

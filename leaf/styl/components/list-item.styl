@@ -1,22 +1,26 @@
-a
+a,
+span,
+strong
   &.list-item
     color:$text-color
     display:block
     width:100%
-    padding-top:10px
     position:relative
+    padding:10px 10px
     clearfix()
     .text
-      border-bottom:1px solid $weak-color
+      border-top:1px solid transparent
+      border-bottom:1px solid transparent
+      center(false)
+    .pull-left + .text
       padding:0 0 10px 0
+      border-bottom:1px solid $weak-color
     .clearfix
       .pull-left, .pull-right
         center(false)
-        .circle
-          center()
     .icon
       &:first-child
         margin-right:5px
     &:hover
-      color:$text-color
       text-decoration:none
+      text-teal()

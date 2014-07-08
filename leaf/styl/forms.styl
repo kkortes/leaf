@@ -3,12 +3,48 @@ defaults()
   background:none
   border:0
   border-bottom:1px solid $weak-color
-  padding:5px 0 3px 0;
+  padding:5px 0 9px 0;
   smooth-font()
   &:focus
     outline:0
+    border-width:2px
+    padding-bottom:8px
+    border-cyan()
+  &:disabled
+    border-style:dotted
+    &:hover
+      cursor:not-allowed
+    &::-webkit-input-placeholder
+      opacity:.5
+    &:-moz-placeholder
+      opacity:.5
+    &::-moz-placeholder
+      opacity:.5
+    &:-ms-input-placeholder
+      opacity:.5
 input[type=text]
   defaults()
+.input
+  position:relative
+  transition:all .2s ease-in-out
+  base-padding()
+  .error-message
+    padding:0 10px
+    opacity:0
+    visibility:hidden
+    transition:all .2s ease-in-out
+    small()
+    text-red()
+  &.error
+    margin-bottom:20px
+    .error-message
+      opacity:1
+      visibility:visible
+    input,
+    textarea
+      border-width:2px
+      padding-bottom:8px
+      border-red()
 textarea
   max-width:100%
   min-width:100%

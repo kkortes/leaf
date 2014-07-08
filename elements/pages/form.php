@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="crow">
+  <div class="crow up">
 
     <div class="ws-5">
       <div class="input">
@@ -7,6 +7,12 @@
           First name
         </label>
         <input type="text" name="firstname" id="firstname" placeholder="Type here" />
+        <div class="drop down-left max error-message">
+          <span>Incorrect input</span>
+          <div class="pull-right">
+            <i class="icon icon-warning"></i>
+          </div>
+        </div>
       </div>
     </div>
     <div class="ws-5">
@@ -15,6 +21,12 @@
           Last name
         </label>
         <input type="text" name="lastname" id="lastname" placeholder="Type here" />
+        <div class="drop down-left max error-message">
+          <span>Incorrect input</span>
+          <div class="pull-right">
+            <i class="icon icon-warning"></i>
+          </div>
+        </div>
       </div>
     </div>
     <div class="ws-2 down">
@@ -31,15 +43,27 @@
         <label for="phone">
           Phone number
         </label>
-        <input type="text" name="phone" id="phone" placeholder="Type here" />
+        <input type="text" disabled name="phone" id="phone" placeholder="Disabled input" />
+        <div class="drop down-left max error-message">
+          <span>Incorrect input</span>
+          <div class="pull-right">
+            <i class="icon icon-warning"></i>
+          </div>
+        </div>
       </div>
     </div>
     <div class="ws-7">
-      <div class="input">
+      <div class="input error">
         <label for="email">
           Email
         </label>
-        <input type="text" name="email" id="email" placeholder="Type here" />
+        <input type="text" name="email" id="email" placeholder="Type here" value="invalidemail@mail" />
+        <div class="drop down-left max error-message">
+          <span>Incorrect input</span>
+          <div class="pull-right">
+            <i class="icon icon-warning"></i>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -53,6 +77,12 @@
           <option>Web development</option>
           <option>Other</option>
         </select>
+        <div class="drop down-left max error-message">
+          <span>Incorrect input</span>
+          <div class="pull-right">
+            <i class="icon icon-warning"></i>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -70,6 +100,12 @@
             <input type="checkbox" name="checkbox" id="c2" /> <label for="c2" class="text-grey text-plus-2">Apply to win</label>
           </li>
         </ul>
+        <div class="drop down-left max error-message">
+          <span>Incorrect input</span>
+          <div class="pull-right">
+            <i class="icon icon-warning"></i>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -97,6 +133,12 @@
             <div class="handle"></div>
           </label>
         </div>
+        <div class="drop down-left max error-message">
+          <span>Incorrect input</span>
+          <div class="pull-right">
+            <i class="icon icon-warning"></i>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -106,6 +148,12 @@
           Description
         </label>
         <textarea name="textarea" placeholder="Enter description here"></textarea>
+        <div class="drop down-left max error-message">
+          <span>Incorrect input</span>
+          <div class="pull-right">
+            <i class="icon icon-warning"></i>
+          </div>
+        </div>
       </div>
     </div>
 

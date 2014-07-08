@@ -7,6 +7,8 @@
       background-size:cover
       background-position:center center
       height:100%
+      img
+        width:100%
   .slider-nav
     position:absolute
     bottom:20px
@@ -16,6 +18,13 @@
     text-align:center
     z-index:10
     ul
-      margin:0
       li
         padding:0
+        a
+          width:10px
+          height:10px
+          fill-grey()
+          &:hover
+            fill-grey(300)
+          &.active
+            fill-white()
