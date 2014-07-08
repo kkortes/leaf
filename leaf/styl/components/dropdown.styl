@@ -1,5 +1,10 @@
 .relative
   position:relative
+  .drop
+    visibility:hidden
+    opacity:0
+    base-padding()
+    font-reset()
   &:hover
     .drop
       visibility:visible
@@ -38,12 +43,9 @@ set-width()
 .drop
   position:absolute
   transition:all .2s ease-in-out
-  visibility:hidden
-  opacity:0
-  font-reset()
-  base-padding()
   &.up
-    put-up()
+    top:0
+    bottom:auto
   &.up-left
     put-up()
     put-left(true)
@@ -56,7 +58,8 @@ set-width()
       set-width()
 
   &.down
-    put-down()
+    bottom:0
+    top:auto
   &.down-left
     put-down()
     put-left(true)
@@ -69,7 +72,8 @@ set-width()
       set-width()
 
   &.left
-    put-left()
+    left:0
+    right:auto
   &.left-down
     put-left()
     put-down(true)
@@ -82,7 +86,8 @@ set-width()
       set-width()
 
   &.right
-    put-right()
+    right:0
+    left:auto
   &.right-down
     put-right()
     put-down(true)

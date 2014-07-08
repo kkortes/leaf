@@ -5,15 +5,15 @@ $('img').each ->
 getPlatform = () ->
   return window.getComputedStyle(document.body,':before').getPropertyValue('content').replace(/'/g,'').replace(/"/g,'')
 
-
 rows = {
   'mod-row' : [
     'card',
     'tile'
   ],
-  'mod-lists .clearfix' : [
+  'mod-lists .list-item' : [
     'pull-left',
-    'pull-right'
+    'pull-right',
+    'text'
   ]
 }
 
@@ -59,11 +59,30 @@ checkResize = () ->
       window.platform = getPlatform()
     , 500
 
+activateLists = () ->
+  $('.minimized li a').on 'click', () ->
+    obj = $(this)
+    if obj.attr('href') is '#'
+      children = obj.parent().children('ul')
+      toggle = obj.find('.toggle')
+      if children.hasClass 'opened'
+        children.removeClass 'opened'
+        toggle.removeClass toggle.attr 'data-altclass'
+        toggle.addClass toggle.attr 'data-class'
+        children.slideUp 'fast'
+      else
+        children.addClass 'opened'
+        toggle.removeClass toggle.attr 'data-class'
+        toggle.addClass toggle.attr 'data-altclass'
+        children.slideDown 'fast'
+      return false
+
 init = () ->
   setTimeout ->
     makeSquare(elements)
     alignChildren(rows)
   , 25
   checkResize()
+  activateLists()
 
 init()

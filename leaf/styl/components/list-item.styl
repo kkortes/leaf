@@ -3,10 +3,17 @@ a
     color:$text-color
     display:block
     width:100%
-    base-padding()
+    padding-top:10px
+    position:relative
+    clearfix()
+    .text
+      border-bottom:1px solid $weak-color
+      padding:0 0 10px 0
     .clearfix
-      .pull-left
-        center()
+      .pull-left, .pull-right
+        center(false)
+        .circle
+          center()
     .icon
       &:first-child
         margin-right:5px

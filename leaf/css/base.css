@@ -4349,11 +4349,22 @@ a.card {
   line-height: 300rem;
   line-height: 30px;
 }
+a.circle {
+  display: block;
+}
 a.circle:hover {
   text-decoration: none;
 }
 .relative {
   position: relative;
+}
+.relative .drop {
+  visibility: hidden;
+  opacity: 0;
+  padding: 10px;
+  font-size: initial;
+  line-height: initial;
+  color: initial;
 }
 .relative:hover .drop {
   visibility: visible;
@@ -4363,16 +4374,10 @@ a.circle:hover {
   position: absolute;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  visibility: hidden;
-  opacity: 0;
-  font-size: initial;
-  line-height: initial;
-  color: initial;
-  padding: 10px;
 }
 .drop.up {
-  top: auto;
-  bottom: 100%;
+  top: 0;
+  bottom: auto;
 }
 .drop.up-left {
   top: auto;
@@ -4393,8 +4398,8 @@ a.circle:hover {
   width: 100%;
 }
 .drop.down {
-  top: 100%;
-  bottom: auto;
+  bottom: 0;
+  top: auto;
 }
 .drop.down-left {
   top: 100%;
@@ -4415,8 +4420,8 @@ a.circle:hover {
   width: 100%;
 }
 .drop.left {
-  left: auto;
-  right: 100%;
+  left: 0;
+  right: auto;
 }
 .drop.left-down {
   left: auto;
@@ -4437,8 +4442,8 @@ a.circle:hover {
   width: 100%;
 }
 .drop.right {
-  right: auto;
-  left: 100%;
+  right: 0;
+  left: auto;
 }
 .drop.right-down {
   right: auto;
@@ -4458,29 +4463,80 @@ a.circle:hover {
 .drop.right-up.max {
   width: 100%;
 }
+.image {
+  line-height: 0;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  line-height: initial;
+  padding: 10px;
+  color: #fff;
+}
 a.list-item {
   color: #424242;
   display: block;
   width: 100%;
-  padding: 10px;
+  padding-top: 10px;
+  position: relative;
 }
-a.list-item .clearfix .pull-left {
-  text-align: center;
+a.list-item:before,
+a.list-item:after {
+  content: " ";
+  display: table;
 }
-a.list-item .clearfix .pull-left:before {
+a.list-item:after {
+  clear: both;
+}
+a.list-item .text {
+  border-bottom: 1px solid #cfd8dc;
+  padding: 0 0 10px 0;
+}
+a.list-item .clearfix .pull-left:before,
+a.list-item .clearfix .pull-right:before {
   content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle;
   margin-right: -0.25em;
 }
-a.list-item .clearfix .pull-left *:first-child {
+a.list-item .clearfix .pull-left *:first-child,
+a.list-item .clearfix .pull-right *:first-child {
   vertical-align: middle;
   display: inline-block;
   *display: inline;
   *zoom: 1;
 }
-a.list-item .clearfix .pull-left *:first-child * {
+a.list-item .clearfix .pull-left *:first-child *,
+a.list-item .clearfix .pull-right *:first-child * {
+  vertical-align: baseline;
+}
+a.list-item .clearfix .pull-left .circle,
+a.list-item .clearfix .pull-right .circle {
+  text-align: center;
+}
+a.list-item .clearfix .pull-left .circle:before,
+a.list-item .clearfix .pull-right .circle:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+a.list-item .clearfix .pull-left .circle *:first-child,
+a.list-item .clearfix .pull-right .circle *:first-child {
+  vertical-align: middle;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+a.list-item .clearfix .pull-left .circle *:first-child *,
+a.list-item .clearfix .pull-right .circle *:first-child * {
   vertical-align: baseline;
 }
 a.list-item .icon:first-child {
@@ -4713,9 +4769,6 @@ h5 {
 img {
   max-width: 100%;
 }
-.block {
-  display: block;
-}
 #wrapper .fullwidth {
   height: 100%;
 }
@@ -4737,8 +4790,14 @@ footer .fullwidth,
 }
 hr {
   border: 0;
-  margin: 0;
   border-bottom: 1px solid #cfd8dc;
+}
+.small {
+  font-size: 80%;
+  line-height: 80%;
+}
+.base-padding {
+  padding: 10px;
 }
 .spacer {
   height: 40px;
@@ -4756,6 +4815,7 @@ hr {
 }
 .text {
   overflow: hidden;
+  position: relative;
 }
 .clearfix:before,
 .clearfix:after {
@@ -4776,10 +4836,40 @@ hr {
   *display: inline;
   *zoom: 1;
 }
+.block {
+  display: block;
+}
+ul.minimized ul {
+  visibility: hidden;
+  opacity: 0;
+  overflow: hidden;
+  display: none;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+ul.minimized ul.opened {
+  visibility: visible;
+  opacity: 1;
+  border-color: #cfd8dc;
+}
 ul.unstyled {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+ul.unstyled ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.unstyled ul li a {
+  padding-left: 20px;
+}
+ul.unstyled ul li ul li a {
+  padding-left: 40px;
+}
+ul.unstyled ul li ul ul li a {
+  padding-left: 60px;
 }
 ul.inline {
   list-style: none;

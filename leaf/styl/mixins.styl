@@ -60,8 +60,9 @@ font-reset()
   font-size:initial
   color:initial
 
-center()
-  text-align:center
+center(textcenter = true)
+  if textcenter
+    text-align:center
   &:before
     content: ''
     display: inline-block

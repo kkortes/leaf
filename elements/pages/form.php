@@ -59,7 +59,7 @@
     <div class="ws-3 up">
       <div class="input">
         <label for="checkbox">
-          Here's your choises
+          Here's your choices
         </label>
         <div class="spacer quarter"></div>
         <ul class="unstyled">

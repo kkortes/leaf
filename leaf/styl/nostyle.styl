@@ -1,5 +1,10 @@
+unstyled()
+  list-style:none
+  margin:0
+  padding:0
 .text
   overflow:hidden
+  position:relative
 .clearfix
   clearfix()
 .pull-left
@@ -8,11 +13,39 @@
   float:right
 .inline-block
   inline()
+.block
+  display:block
 ul
+  &.minimized
+    ul
+      visibility:hidden
+      opacity:0
+      overflow:hidden
+      //transition:all .5s ease-in-out
+      //height:0
+      display:none
+      border-top:1px solid transparent
+      border-bottom:1px solid transparent
+      &.opened
+        //height:auto
+        visibility:visible
+        opacity:1
+        border-color:$weak-color
   &.unstyled
-    list-style:none
-    margin:0
-    padding:0
+    unstyled()
+    ul
+      unstyled()
+      li
+        a
+          padding-left:20px
+        ul
+          li
+            a
+              padding-left:40px
+          ul
+            li
+              a
+                padding-left:60px
   &.inline
     list-style:none
     padding:0
