@@ -1,0 +1,9 @@
+body.page-index #wrapper {
+  background-image: url("../image/cows.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+body.page-index .icon-leaf {
+  font-size: 100px;
+  line-height: 100px;
+}

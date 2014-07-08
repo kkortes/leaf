@@ -52,6 +52,19 @@ input[type=submit]
       depth(3)
     &.disabled
       disabled()
+  &.text
+    background:none
+    padding:0 20px 0 0
+    font-weight:bold
+    depth(0)
+    &:hover
+      background:none
+      text-cyan(300)
+      depth(0)
+    &:active
+      depth(0)
+    &.disabled
+      disabled()
 a
   &.button
     &:hover

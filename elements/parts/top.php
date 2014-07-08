@@ -4,13 +4,7 @@
       <div class="container">
         <div class="crow no-gutter">
           <div class="ws-12">
-            <a href="<?=$app->url?>" class="relative">
-              Leaf CSS Framework
-              <div class="drop left-down" style="opacity:1;visibility:visible;">
-                <i class="icon icon-leaf text-green text-minus-2" style="font-size:36px;margin-top:-8px;display:block;"></i>
-
-              </div>
-            </a>
+            
           </div>
         </div>
       </div>
@@ -18,8 +12,38 @@
 
     <div class="container">
       <div class="crow no-gutter">
-        <div class="ws-12">
-          <?=$app->get('parts/nav')?>
+        <div class="ws-6">
+          <div class="tabs fill-blue-grey">
+            <ul class="inline">
+              <?
+              $pages = array(
+                $app->url.'getting-started' => array(
+                  'text' => 'Getting Started',
+                  'link' => true
+                ),
+                $app->url.'grid' => array(
+                  'text' => 'Grid',
+                  'link' => true
+                ),
+                $app->url.'compontents' => array(
+                  'text' => $app->get('parts/nav'),
+                  'link' => false
+                ),
+              );
+              foreach($pages as $link => $page) {
+              ?>
+              <li>
+                <?
+                if($page['link']) {
+                ?>
+                <a href="<?=$link?>" class="button tab-link text-white"><?=$page['text']?></a>
+                <? }else{ ?>
+                <?=$page['text']?>
+                <? } ?>
+              </li>
+              <? } ?>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

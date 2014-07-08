@@ -37,6 +37,9 @@ smooth-font()
 base-padding($px = 10px)
   padding:$px
 
+strong-padding($px = 15px)
+  padding:$px
+
 inline()
   display:inline-block
   *display:inline // IE7 inline-block hack
@@ -60,6 +63,24 @@ font-reset()
   font-size:initial
   color:initial
 
+text-center()
+  text-align:center
+
+text-left()
+  text-align:left
+
+text-right()
+  text-align:right
+
+unstyled()
+  list-style:none
+  margin:0
+  padding:0
+small()
+  font-size:80%
+large()
+  font-size:120%
+
 center(textcenter = true)
   if textcenter
     text-align:center
@@ -68,7 +89,8 @@ center(textcenter = true)
     display: inline-block
     height: 100%
     vertical-align: middle
-    margin-right: -0.25em // Adjusts for spacing
+    margin-right: -0.125em // Adjusts for spacing
+    margin-left: -0.125em
   *:first-child
     vertical-align: middle
     inline()

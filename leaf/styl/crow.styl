@@ -66,9 +66,11 @@ unit-widths(nums)
   > div
     vertical-align:middle
     font-size:$font-size
-    text-align:left
+    line-height:$line-height
     display:inline-block
     padding:0 ($gutter * 1px)
+    &:not(.text-center)
+      text-align:left
     &.up
       vertical-align:top
     &.down
