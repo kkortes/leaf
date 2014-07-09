@@ -14,6 +14,17 @@
       <p>You can reach me at <a href="http://twitter.com/kortekim" target="_blank">@kortekim</a> or <a href="mailto:kim@kortes.se">kim@kortes.se</a>.
       </p>
 
+      <h2>Respect Google and their work</h2>
+      <p>Listen up. I love what google does and am myself a huge fan of their work. Please notice this is just the start of Leaf CSS Framework and much will change until the final release.
+      </p>
+  
+      <h3>You may ask, why did you reveal it when it is far from done?</h3>
+      <p>
+      First of, my intention wasn't to get the attraction that Leaf got (over one day). I just posted a link to get some responses and BANG, all over the internet.
+      <br />
+      Secondly, people already blaming Leaf for being a "poor implementation". It's in its alpha and if you got good ideas and inputs, why not contribute? A project gotta start somewhere. Also, I think it's appropriate to share Leaf this early in the progression. I'm no designer, though I love beautiful designs and interfaces, and therefore I find it important to get others inputs before setting standards.
+      </p>
+
       <h2>Read this if you are thinking about contributing</h2>
       <p>The idea is pretty simple. Just copy everything as good as possible from <a href="http://google.com/design/spec" target="_blank">Google's material design</a> and make CSS/JS out of it.
       The goal is to move everything from there to the web, easy to use and maintain.
