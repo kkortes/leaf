@@ -56,9 +56,9 @@
           </div>
 
           <div class="drop down-left" style="padding-left:10px;">
-            <script data-gittip-username="kortekim"
-        data-gittip-widget="button"
-        src="//gttp.co/v1.js"></script>
+            <a href="https://gittip.com/kortekim" target="_blank" class="card image">
+              <img src="http://s30.postimg.org/rz9fb6rz1/Screen_Shot_2014_07_09_at_20_58_41.png" />
+            </a>
           </div>
         </div>
 			</div>
