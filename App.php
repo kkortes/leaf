@@ -85,6 +85,7 @@ class App {
       $output = ob_get_clean();
       return $output;
     }else{
+      echo '<script>location.href="/404"</script>';
       throw new Exception('Element does not exists');
     }
   }
