@@ -43,7 +43,7 @@
 
 			<div class="drop down-left " style="padding-left:10px;">
 				<!-- Place this tag where you want the +1 button to render. -->
-				<div class="g-plusone" data-size="medium"></div>
+				<div class="g-plusone" data-size="medium" data-href="http://leaf.kortes.se"></div>
 			</div>
 		</div>
 	</div>
