@@ -7,7 +7,7 @@
 						<?=$app->get('parts/nav')?>
 					</div>
 					<div class="spacer quarter"></div>
-					<?=$app->get('pages/form')?>
+					<?=$app->get('component/modal', array('dontinclude' => true))?>
 					<div class="spacer half"></div>
 				</div>
 			</div>

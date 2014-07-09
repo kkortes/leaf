@@ -23,7 +23,7 @@ include "base.php";
 		</div>
 		<div class="ws-4">
 			<div class="spacer half"></div>
-			<div class="label">Example:</div>
+			<div class="label">Example (inspect me):</div>
 			<div class="spacer quarter"></div>
 
 			<div class="circle fill-red" style="width:60px;">

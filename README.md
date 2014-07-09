@@ -1,5 +1,7 @@
 Leaf CSS theme
-        
+
 ======
 
-A material design theme based on Google's material designs.
+A CSS framework based on Google's material design.
+
+Using stylus.

@@ -111,7 +111,7 @@
 
     <div class="ws-4 up">
       <div class="input">
-        <label for="select">
+        <label for="switch">
           Male/female
         </label>
         <div class="spacer quarter"></div>

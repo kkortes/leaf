@@ -1,107 +1,20 @@
 <div class="crow">
-	<div>
-
-		<div class="crow">
-			<div>
-				<div class="button fill-cyan relative">
-					.drop.up-left
-					<div class="drop up-left">
-						Lorem
-					</div>
-				</div>
-
-				<div class="button fill-cyan relative">
-					.drop.up-right
-					<div class="drop up-right">
-						<i class="icon icon-cloud"></i> Lorem
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="spacer"></div>
-		<div class="spacer"></div>
-
-		<div class="crow">
-			<div>
-				<div class="button fill-cyan relative">
-					.drop.left-up
-					<div class="drop left-up">
-						Lorem
-					</div>
-				</div>
-
-				<div class="button fill-cyan relative">
-					.drop.right-up
-					<div class="drop right-up">
-						<i class="icon icon-phone"></i> Lorem
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="spacer"></div>
-		<div class="spacer"></div>
-		
-		<div class="crow">
-			<div>
-				<div class="button fill-cyan relative">
-					.drop.left-down
-					<div class="drop left-down">
-						Lorem
-					</div>
-				</div>
-
-				<div class="button fill-cyan relative">
-					.drop.right-down
-					<div class="drop right-down">
-						Lorem
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="spacer"></div>
-		<div class="spacer"></div>
-		
-		<div class="crow">
-			<div>
-				<div class="button fill-cyan relative">
-					.drop.down-left
-					<div class="drop down-left">
-						<i class="icon icon-location"></i> Lorem
-					</div>
-				</div>
-
-				<div class="button fill-cyan relative">
-					.drop.down-right
-					<div class="drop down-right">
-						Lorem
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-	<div class="spacer"></div>
-	<div class="spacer"></div>
 
 	<div>
 
 		<div class="crow">
 			<div>
 				<div class="button fill-cyan relative">
-					.drop.up-left.max.card
-					<div class="drop up-left max card fill-white">
-						Lorem
+					Drop up, stick left (outset)
+					<div class="drop up-left card fill-white base-padding">
+						.drop.up-left
 					</div>
 				</div>
 
 				<div class="button fill-cyan relative">
-					.drop.up-right.max.card
-					<div class="drop up-right max card fill-white">
-						Lorem
+					Drop up, stick right (outset)
+					<div class="drop up-right card fill-white base-padding">
+						.drop.up-right
 					</div>
 				</div>
 			</div>
@@ -113,37 +26,16 @@
 		<div class="crow">
 			<div>
 				<div class="button fill-cyan relative">
-					.drop.left-up.max.card
-					<div class="drop left-up max card fill-white">
-						Lorem
+					Drop left, stick up (outset)
+					<div class="drop left-up card fill-white base-padding">
+						.drop.left-up
 					</div>
 				</div>
 
 				<div class="button fill-cyan relative">
-					.drop.right-up.max.card
-					<div class="drop right-up max card fill-white">
-						<i class="icon icon-phone"></i> Lorem
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="spacer"></div>
-		<div class="spacer"></div>
-		
-		<div class="crow">
-			<div>
-				<div class="button fill-cyan relative">
-					.drop.left-down.max.card
-					<div class="drop left-down max card fill-white">
-						Lorem
-					</div>
-				</div>
-
-				<div class="button fill-cyan relative">
-					.drop.right-down.max.card
-					<div class="drop right-down max card fill-white">
-						Lorem
+					Drop right, stick up (outset)
+					<div class="drop right-up card fill-white base-padding">
+						.drop.right-up
 					</div>
 				</div>
 			</div>
@@ -155,16 +47,58 @@
 		<div class="crow">
 			<div>
 				<div class="button fill-cyan relative">
-					.drop.down-left.max.card
-					<div class="drop down-left max card fill-white">
-						Lorem
+					Drop left, stick down (outset)
+					<div class="drop left-down card fill-white base-padding">
+						.drop.left-down
 					</div>
 				</div>
 
 				<div class="button fill-cyan relative">
-					.drop.down-right.max.card
-					<div class="drop down-right max card fill-white">
-						Lorem
+					Drop right, stick down (outset)
+					<div class="drop right-down card fill-white base-padding">
+						.drop.right-down
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="spacer"></div>
+		<div class="spacer"></div>
+		
+		<div class="crow">
+			<div>
+				<div class="button fill-cyan relative">
+					Drop down, stick left (outset)
+					<div class="drop down-left card fill-white base-padding">
+						.drop.down-left
+					</div>
+				</div>
+
+				<div class="button fill-cyan relative">
+					Drop down, stick right (outset)
+					<div class="drop down-right card fill-white base-padding">
+						.drop.down-right
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="spacer"></div>
+		<div class="spacer"></div>
+		
+		<div class="crow">
+			<div>
+				<div class="button fill-cyan relative">
+					Drop down, stick left (inset)
+					<div class="drop down left card fill-white base-padding">
+						.drop.down.left
+					</div>
+				</div>
+
+				<div class="button fill-cyan relative">
+					Drop down, stick right (inset)
+					<div class="drop up right card fill-white base-padding">
+						.drop.up.right
 					</div>
 				</div>
 			</div>

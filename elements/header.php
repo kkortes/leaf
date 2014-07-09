@@ -15,4 +15,4 @@
 </head>
 <body class="page-<?=(isset($_GET['page']) ? $_GET['page'] : 'index')?>">
 <?=$app->get('parts/top')?>
-<div id="wrapper" class="<?=(isset($_GET['page']) && $_GET['page'] != 'colors' && $_GET['page'] != 'icons' ? 'fill-grey fill-minus-5' : '')?>">
+<div id="wrapper">

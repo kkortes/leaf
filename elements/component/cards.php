@@ -10,15 +10,7 @@ include "base.php";
 					<i class="icon icon-link"></i>
 					<div class="drop down-left" style="width:500px;">
 						<div class="tile base-padding fill-blue-grey text-white">
-							<a href="http://www.google.com/design/spec/components/cards.html" class="text-white">http://www.google.com/design/spec/components/cards.html</a>
-						</div>
-					</div>
-				</div>
-				<div class="inline-block relative">
-					<i class="icon icon-text"></i>
-					<div class="drop down-left" style="width:500px;">
-						<div class="tile base-padding fill-blue-grey text-white text-plus-2">
-							“A card is a piece of paper that contains a unique data set of related, heterogeneous information, for example, a photo, text, and link all about a single subject. Cards typically are an entry point to more complex and detailed information. Cards have a constant width and variable height. The maximum height is limited to what can fit within a single view on a platform, but it can temporarily expand as needed (for example, to display a comment field). Cards do not flip to reveal information on their back.”
+							<a href="http://www.google.com/design/spec/components/cards.html" target="_blank" class="text-white">http://www.google.com/design/spec/components/cards.html</a>
 						</div>
 					</div>
 				</div>
@@ -30,11 +22,12 @@ include "base.php";
 			<h2>Consider using</h2>
 			.fill-{color}<br />
 			.base-padding & .strong-padding<br />
-			<a href="/grid" class="text-blue-grey">.crow</a> inside a .card
+			<a href="/grid">.crow</a> inside a .card
 		</div>
 		<div class="ws-4">
 			<div class="spacer half"></div>
-			<div class="label">Example:</div>
+			<div class="label">Example (inspect me):</div>
+			<div class="spacer quarter"></div>
 			<div class="card">
 				<div class="image">
 					<img src="<?=$app->url?>assets/image/dummies/ex1.png" style="width:100%;" />

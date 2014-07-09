@@ -1,33 +1,39 @@
 <div class="top fill-blue-grey text-white">
   <div class="fullwidth">
-    <div class="fill-plus-2" style="padding:8px 0 5px 0;">
-      <div class="container">
-        <div class="crow no-gutter">
-          <div class="ws-12">
-            
-          </div>
-        </div>
-      </div>
+    <div class="fill-plus-2" style="padding:6px 0;">
     </div>
 
     <div class="container">
       <div class="crow no-gutter">
-        <div class="ws-6">
+        <div class="ws-12">
           <div class="tabs fill-blue-grey">
             <ul class="inline">
               <?
               $pages = array(
+                $app->url => array(
+                  'text' => 'Start',
+                  'link' => true,
+                  'active' => (!isset($_GET['page'])) ? true : false
+                ),
                 $app->url.'getting-started' => array(
                   'text' => 'Getting Started',
-                  'link' => true
+                  'link' => true,
+                  'active' => (isset($_GET['page']) && $_GET['page'] == 'getting-started') ? true : false
+                ),
+                $app->url.'colors' => array(
+                  'text' => 'Colors',
+                  'link' => true,
+                  'active' => (isset($_GET['page']) && $_GET['page'] == 'colors') ? true : false
                 ),
                 $app->url.'grid' => array(
                   'text' => 'Grid',
-                  'link' => true
+                  'link' => true,
+                  'active' => (isset($_GET['page']) && $_GET['page'] == 'grid') ? true : false
                 ),
-                $app->url.'compontents' => array(
+                $app->url.'components' => array(
                   'text' => $app->get('parts/nav'),
-                  'link' => false
+                  'link' => false,
+                  'active' => (isset($_GET['page']) && $_GET['page'] == 'component') ? true : false
                 ),
               );
               foreach($pages as $link => $page) {
@@ -36,7 +42,7 @@
                 <?
                 if($page['link']) {
                 ?>
-                <a href="<?=$link?>" class="button tab-link text-white"><?=$page['text']?></a>
+                <a href="<?=$link?>" class="button tab-link text-white <?=($page['active'] ? 'active' : '')?>"><?=$page['text']?></a>
                 <? }else{ ?>
                 <?=$page['text']?>
                 <? } ?>

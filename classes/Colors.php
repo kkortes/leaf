@@ -111,7 +111,7 @@
 		static function getSteps($incremental = false) {
 			$result = array(50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 500);
 			if($incremental)
-				$result = array('minus-6', 'minus-5', 'minus-4', 'minus-3', 'minus-2', 'minus-1', 'base', 'plus-1', 'plus-2', 'plus-3', 'plus-4', 'accent-1', 'accent-2', 'accent-3', 'accent-4');
+				$result = array('minus-5', 'minus-4', 'minus-3', 'minus-2', 'minus-1', 'base', 'plus-1', 'plus-2', 'plus-3', 'plus-4', 'accent-1', 'accent-2', 'accent-3', 'accent-4');
 			return $result;
 		}
 		static function getAll() {

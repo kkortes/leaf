@@ -1,3 +1,1 @@
-<div class="circle fill-white">
-  
-</div>
+<div class="circle fill-white"></div>

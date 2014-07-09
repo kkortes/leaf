@@ -4186,14 +4186,17 @@ header,
   body .container {
     width: auto;
   }
-  body .crow:not(.keep-alive).crow {
+  body .crow > .crow:not(.keep-alive).crow,
+  body .crow.crow:not(.keep-alive).crow {
     height: auto;
   }
-  body .crow:not(.keep-alive).crow > div {
+  body .crow > .crow:not(.keep-alive).crow > div,
+  body .crow.crow:not(.keep-alive).crow > div {
     display: block;
     width: 100%;
   }
-  body .crow:not(.keep-alive).crow:before {
+  body .crow > .crow:not(.keep-alive).crow:before,
+  body .crow.crow:not(.keep-alive).crow:before {
     content: '';
     display: none;
   }
@@ -4496,23 +4499,10 @@ input[type=submit]:disabled:active {
   box-shadow: none;
 }
 .button.text.disabled {
-  background-color: #eee;
-  color: #bdbdbd;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
+  background: none;
 }
 .button.text.disabled:hover {
-  background-color: none;
   color: #bdbdbd;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
-.button.text.disabled:active {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
 }
 a.button:hover {
   text-decoration: none;
@@ -4597,8 +4587,8 @@ a.circle:hover {
   z-index: 11;
 }
 .drop.up {
-  top: 0;
-  bottom: auto;
+  bottom: 0;
+  top: auto;
 }
 .drop.up.max {
   width: 100%;
@@ -4622,8 +4612,8 @@ a.circle:hover {
   width: 100%;
 }
 .drop.down {
-  bottom: 0;
-  top: auto;
+  top: 0;
+  bottom: auto;
 }
 .drop.down.max {
   width: 100%;
@@ -4989,6 +4979,7 @@ a.tile {
   *display: inline;
   *zoom: 1;
   color: #fff;
+  display: block;
 }
 .notice .message span {
   font-size: 90%;
@@ -5009,6 +5000,7 @@ a.tile {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
+  margin: 0 -2px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -5053,12 +5045,12 @@ body:before {
   *display: none;
 }
 a {
-  color: #fff;
+  color: #00bcd4;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #e0e0e0;
+  color: #4dd0e1;
   text-decoration: underline;
 }
 h1 {

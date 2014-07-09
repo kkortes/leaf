@@ -138,9 +138,11 @@ destroy-crow()
   body
     .container
       width:auto
-    .crow
-      &:not(.keep-alive)
-        destroy-crow()
+    .crow 
+      > .crow,
+      &.crow
+        &:not(.keep-alive)
+          destroy-crow()
 
   // Smartphone, vertical
   @media (max-width: $screen-xs-min)
