@@ -2,7 +2,7 @@
   <div class="crow">
     <div class="ws-12">
       <h1>Getting started</h1>
-      <p><i>Current version: Alpha 1.0</i>
+      <p><i>Current version: Alpha 0.1</i>
       </p>
       <p>~ Under construction <span class="small">(as of 9th of July 2014)</span> ~
       </p>
