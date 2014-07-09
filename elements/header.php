@@ -45,7 +45,7 @@
 				<!-- Place this tag where you want the +1 button to render. -->
 				<div class="g-plusone" data-size="medium" data-href="http://leaf.kortes.se"></div>
 
-        <div class="drop down-left base-padding">
+        <div class="drop down-left base-padding" style="padding-bottom:5px;">
           <span>Support</span> <i class="icon icon-leaf text-green" style="font-size:20px;line-height:20px;"></i>
           <div class="image card">
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="line-height:0;">
@@ -59,6 +59,17 @@
             <a href="https://gittip.com/kortekim" target="_blank" class="card image">
               <img src="http://s30.postimg.org/rz9fb6rz1/Screen_Shot_2014_07_09_at_20_58_41.png" />
             </a>
+
+            <div class="drop down-left" style="padding-left:10px;padding-top:5px;">
+              <div class="relative">
+                <div class="image card fill-white" style="padding:3px;">
+                  <img src="http://s11.postimg.org/8yxr24w0v/bitcoin.png" />
+                </div>
+                <div class="drop bottom-left fill-white card" style="width:310px;padding:5px;">
+                  1PiRdutMwncxkjp8quxQiF1qFUBGBjwhfg
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 			</div>
