@@ -44,6 +44,23 @@
 			<div class="drop down-left " style="padding-left:10px;">
 				<!-- Place this tag where you want the +1 button to render. -->
 				<div class="g-plusone" data-size="medium" data-href="http://leaf.kortes.se"></div>
+
+        <div class="drop down-left base-padding">
+          <span>Support</span> <i class="icon icon-leaf text-green" style="font-size:20px;line-height:20px;"></i>
+          <div class="image card">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="line-height:0;">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="THW6HTLHVAH2S">
+            <input type="image" src="http://s2.postimg.org/l1fuv5dmd/support.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            </form>
+          </div>
+
+          <div class="drop down-left" style="padding-left:10px;">
+            <script data-gittip-username="kortekim"
+        data-gittip-widget="button"
+        src="//gttp.co/v1.js"></script>
+          </div>
+        </div>
 			</div>
 		</div>
 	</div>
