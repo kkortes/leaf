@@ -12,7 +12,7 @@ include "base.php";
       .slider > .slider-nav & .crow.no-gutter.fly.stripe.keep-alive > .slide (any amount)
 
       <h2>Consider using</h2>
-      A constant height for each .slide to make sure the slider sticks in place
+      A constant height for each .slide to make sure the slider sticks in place<br />
       Another interval (defaults to 8 seconds)
       
       <h2><i class="icon icon-warning"></i> Side note(s)</h2>
