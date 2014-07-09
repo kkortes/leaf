@@ -16,6 +16,19 @@ rows = {
   'mod-lists .list-item': ['pull-left', 'pull-right']
 };
 
+$('.icon.icon-list2').on('click', function() {
+  if (getPlatform() === 'smartphone vertical' || getPlatform() === 'smartphone horizontal') {
+    if ($('.top-nav').hasClass('relative')) {
+      $('.top-nav span').remove();
+      $('.top-nav').removeClass('relative');
+      $('.top-nav').removeClass('desktop-nav');
+    } else {
+      $('.top-nav').addClass('relative');
+      $('.top-nav').addClass('desktop-nav');
+    }
+  }
+});
+
 alignChildren = function(rows) {
   var children, row, _results;
   if (rows == null) {

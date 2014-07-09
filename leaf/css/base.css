@@ -5044,6 +5044,9 @@ body:before {
   visibility: hidden;
   *display: none;
 }
+.show-on-mobile {
+  display: none;
+}
 a {
   color: #00bcd4;
   text-decoration: none;
@@ -5148,8 +5151,12 @@ hr {
   }
 }
 @media (max-width: 767px) {
-  body .sharer {
+  body .sharer,
+  body .desktop-nav {
     display: none;
+  }
+  body .show-on-mobile {
+    display: block;
   }
 @media (max-width: 481px) {
     body:before {

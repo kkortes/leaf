@@ -6,6 +6,11 @@
     <div class="container">
       <div class="crow no-gutter">
         <div class="ws-12">
+          <div class="clearfix show-on-mobile base-padding">
+            <div class="pull-right">
+              <a href="#" class="icon icon-list2 text-white" style="font-size:26px;"></a>
+            </div>
+          </div>
           <div class="tabs fill-blue-grey">
             <ul class="inline">
               <?
