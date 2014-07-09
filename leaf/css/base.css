@@ -5147,3 +5147,18 @@ hr {
     content: 'desktop';
   }
 }
+@media (max-width: 767px) {
+  body .sharer {
+    display: none;
+  }
+@media (max-width: 481px) {
+    body:before {
+      content: 'smartphone vertical';
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    body:before {
+      content: 'smartphone horizontal';
+    }
+}
+}

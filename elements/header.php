@@ -34,7 +34,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 <?=$app->get('parts/top')?>
 <div id="wrapper">
-	<div class="drop left top base-padding">
+	<div class="drop left top base-padding sharer">
 		<div class="fb-like" data-href="http://leaf.kortes.se" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 
 		<div class="drop down-left base-padding" style="padding-top:25px;">
