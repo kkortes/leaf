@@ -46,7 +46,8 @@
 				<div class="g-plusone" data-size="medium" data-href="http://leaf.kortes.se"></div>
 
         <div class="drop down-left base-padding" style="padding-bottom:5px;">
-          <span>Support</span> <i class="icon icon-leaf text-green" style="font-size:20px;line-height:20px;"></i>
+          <strong>Support project</strong>
+          <div class="spacer quarter"></div>
           <div class="image card">
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="line-height:0;">
             <input type="hidden" name="cmd" value="_s-xclick">
