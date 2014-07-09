@@ -20,7 +20,7 @@
   
       <h3>You may ask, why did you reveal it when it is far from done?</h3>
       <p>
-      First of, my intention wasn't to get the attraction that Leaf got (over one day). I just posted a link to get some responses and BANG, all over the internet.
+      First of, my intention wasn't to get the attraction that Leaf got (over one day). I just posted a link to get some feedback and BANG, all over the internet.
       <br />
       Secondly, people already blaming Leaf for being a "poor implementation". It's in its alpha and if you got good ideas and inputs, why not contribute? A project gotta start somewhere. Also, I think it's appropriate to share Leaf this early in the progression. I'm no designer, though I love beautiful designs and interfaces, and therefore I find it important to get others inputs before setting standards.
       </p>
