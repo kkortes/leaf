@@ -24,5 +24,16 @@
   ga('send', 'pageview');
 
 </script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=522665991192560&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <?=$app->get('parts/top')?>
 <div id="wrapper">
+	<div class="drop right top base-padding">
+		<div class="fb-like" data-href="http://leaf.kortes.se" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+	</div>
