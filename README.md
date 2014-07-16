@@ -1,4 +1,12 @@
-Leaf CSS theme
+NOTICE:
+Since 16 Juli 2014 this repository does only contains Leaf CSS Framework itself. 
+
+For the showcase repository please visit:
+https://github.com/kkortes/leaf-showcase
+
+
+
+Leaf CSS Framework theme
 
 ======
 
