@@ -129,6 +129,10 @@ initSlider = () ->
       return false
   return
 
+initWaves = () ->
+  w = new Waves()
+  w.displayEffect()
+
 init = () ->
   setTimeout ->
     makeSquare(elements)
@@ -137,5 +141,6 @@ init = () ->
   checkResize()
   activateLists()
   initSlider()
+  initWaves()
 
 init()

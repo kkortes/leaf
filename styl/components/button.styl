@@ -18,14 +18,14 @@ button()
   transition:all .2s ease
   inline()
   depth(1)
-  &:hover
-    fill-cyan(700)
-    depth(2)
-  &:active
-    depth(3)
-  &.disabled
-    disabled()
-
+  &:not(.waves-effect)
+    &:hover
+      fill-cyan(700)
+      depth(1)
+    &:active
+      depth(2)
+    &.disabled
+      disabled()
 input[type=submit]
   -webkit-appearance:none
   border:0
@@ -33,8 +33,8 @@ input[type=submit]
   button()
   &:focus
     outline:0
-  &:hover
-    color:darken(#fff, 10%)
+  // &:hover
+  //   color:darken(#fff, 10%)
   &.flat
     color:inherit
   &.disabled,
@@ -47,9 +47,10 @@ input[type=submit]
     depth(0)
     &:hover
       fill-cyan(300)
-      depth(1)
+      depth(0)
+      text-white()
     &:active
-      depth(3)
+      depth(0)
     &.disabled
       disabled()
   &.text
@@ -71,4 +72,3 @@ a
   &.button
     &:hover
       text-decoration:none
-      color:darken(#fff, 10%)
