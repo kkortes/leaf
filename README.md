@@ -6,10 +6,7 @@ https://github.com/kkortes/leaf-showcase
 
 
 
-Leaf CSS Framework
-\#materialdesign
-\#leaf
-
+Leaf CSS Framework \#materialdesign \#leaf
 ======
 
 A CSS framework based on Google's material design.
