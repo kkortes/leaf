@@ -12,6 +12,6 @@ Leaf CSS Framework
 
 A CSS framework based on Google's material design (http://google.com/design/spec).
 
-Read more about the project here > http://leaf.kortes.se/getting-started
+Read more about the project here > http://getleaf.com/getting-started
 
 Feel free to contribute!

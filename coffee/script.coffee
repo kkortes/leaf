@@ -109,22 +109,34 @@ initSlider = () ->
     nav = slider.find('.slider-nav')
 
     if slider.find('.stripe.crow .slide').length > 1
+      if typeof slider.data('nextslide') is 'undefined'
+        nextslide = 1
+        slider.data 'nextslide', nextslide
       slider.data 'interval', setInterval ->
-        if typeof slider.data('nextslide') is 'undefined'
-          nextslide = 1
-          slider.data 'nextslide', nextslide
-        else
-          console.log 'now here'
-          nextslide = slider.data 'nextslide'
+        nextslide = slider.data 'nextslide'
         
         slider.data 'nextslide', slide(slider, nextslide, nav)
       , interval
 
+      hammertime = new Hammer slider[0]
+      hammertime.on 'swipeleft', (ev) ->
+        clearInterval(slider.data('interval'))
+        nextslide = slider.data 'nextslide'
+        slider.data 'nextslide', slide(slider, nextslide, nav)
+        console.log nextslide
+      hammertime.on 'swiperight', (ev) ->
+        clearInterval(slider.data('interval'))
+        nextslide = (slider.data 'nextslide')-1
+        if nextslide < 0
+          nextslide = slider.find('.stripe.crow .slide').length-1
+        slider.data 'nextslide', nextslide
+        
+        slide(slider, nextslide, nav)
+
     nav.find('a').on 'click', ->
       clearInterval(slider.data('interval'))
       index = nav.find('a').index(this)
-      console.log index
-      slide(slider, index, nav)
+      slide slider, index, nav
       return false
   return
 

@@ -151,27 +151,39 @@
     sliders = $('.slider');
     interval = 8000;
     sliders.each(function() {
-      var nav, slider;
+      var hammertime, nav, nextslide, slider;
       slider = $(this);
       nav = slider.find('.slider-nav');
       if (slider.find('.stripe.crow .slide').length > 1) {
+        if (typeof slider.data('nextslide') === 'undefined') {
+          nextslide = 1;
+          slider.data('nextslide', nextslide);
+        }
         slider.data('interval', setInterval(function() {
-          var nextslide;
-          if (typeof slider.data('nextslide') === 'undefined') {
-            nextslide = 1;
-            slider.data('nextslide', nextslide);
-          } else {
-            console.log('now here');
-            nextslide = slider.data('nextslide');
-          }
+          nextslide = slider.data('nextslide');
           return slider.data('nextslide', slide(slider, nextslide, nav));
         }, interval));
+        hammertime = new Hammer(slider[0]);
+        hammertime.on('swipeleft', function(ev) {
+          clearInterval(slider.data('interval'));
+          nextslide = slider.data('nextslide');
+          slider.data('nextslide', slide(slider, nextslide, nav));
+          return console.log(nextslide);
+        });
+        hammertime.on('swiperight', function(ev) {
+          clearInterval(slider.data('interval'));
+          nextslide = (slider.data('nextslide')) - 1;
+          if (nextslide < 0) {
+            nextslide = slider.find('.stripe.crow .slide').length - 1;
+          }
+          slider.data('nextslide', nextslide);
+          return slide(slider, nextslide, nav);
+        });
       }
       return nav.find('a').on('click', function() {
         var index;
         clearInterval(slider.data('interval'));
         index = nav.find('a').index(this);
-        console.log(index);
         slide(slider, index, nav);
         return false;
       });

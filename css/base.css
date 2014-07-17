@@ -5361,6 +5361,9 @@ input[type=text] {
   border: 0;
   border-bottom: 1px solid #cfd8dc;
   padding: 5px 0 9px 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   -webkit-font-smoothing: antialiased;
 }
 input[type=text]:focus {
@@ -5428,6 +5431,9 @@ textarea {
   border: 0;
   border-bottom: 1px solid #cfd8dc;
   padding: 5px 0 9px 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   -webkit-font-smoothing: antialiased;
 }
 textarea:focus {

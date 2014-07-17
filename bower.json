@@ -1,0 +1,22 @@
+{
+  "name": "leaf-css-framework",
+  "version": "1.0.0",
+  "homepage": "http://getleaf.com",
+  "authors": [
+    "kkortes <kim@kortes.se>"
+  ],
+  "description": "Leaf CSS Framework based on Google's material design",
+  "keywords": [
+    "materialdesign",
+    "css",
+    "framework"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
