@@ -5899,6 +5899,7 @@ a.circle:hover {
 }
 a.list-item,
 span.list-item,
+div.list-item,
 strong.list-item {
   color: #424242;
   display: block;
@@ -5908,26 +5909,31 @@ strong.list-item {
 }
 a.list-item:before,
 span.list-item:before,
+div.list-item:before,
 strong.list-item:before,
 a.list-item:after,
 span.list-item:after,
+div.list-item:after,
 strong.list-item:after {
   content: " ";
   display: table;
 }
 a.list-item:after,
 span.list-item:after,
+div.list-item:after,
 strong.list-item:after {
   clear: both;
 }
 a.list-item .text,
 span.list-item .text,
+div.list-item .text,
 strong.list-item .text {
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
 }
 a.list-item .text:before,
 span.list-item .text:before,
+div.list-item .text:before,
 strong.list-item .text:before {
   content: '';
   display: inline-block;
@@ -5938,6 +5944,7 @@ strong.list-item .text:before {
 }
 a.list-item .text *:first-child,
 span.list-item .text *:first-child,
+div.list-item .text *:first-child,
 strong.list-item .text *:first-child {
   vertical-align: middle;
   display: inline-block;
@@ -5946,20 +5953,24 @@ strong.list-item .text *:first-child {
 }
 a.list-item .text *:first-child *,
 span.list-item .text *:first-child *,
+div.list-item .text *:first-child *,
 strong.list-item .text *:first-child * {
   vertical-align: baseline;
 }
 a.list-item .pull-left + .text,
 span.list-item .pull-left + .text,
+div.list-item .pull-left + .text,
 strong.list-item .pull-left + .text {
   padding: 0 0 10px 0;
   border-bottom: 1px solid #cfd8dc;
 }
 a.list-item .clearfix .pull-left:before,
 span.list-item .clearfix .pull-left:before,
+div.list-item .clearfix .pull-left:before,
 strong.list-item .clearfix .pull-left:before,
 a.list-item .clearfix .pull-right:before,
 span.list-item .clearfix .pull-right:before,
+div.list-item .clearfix .pull-right:before,
 strong.list-item .clearfix .pull-right:before {
   content: '';
   display: inline-block;
@@ -5970,9 +5981,11 @@ strong.list-item .clearfix .pull-right:before {
 }
 a.list-item .clearfix .pull-left *:first-child,
 span.list-item .clearfix .pull-left *:first-child,
+div.list-item .clearfix .pull-left *:first-child,
 strong.list-item .clearfix .pull-left *:first-child,
 a.list-item .clearfix .pull-right *:first-child,
 span.list-item .clearfix .pull-right *:first-child,
+div.list-item .clearfix .pull-right *:first-child,
 strong.list-item .clearfix .pull-right *:first-child {
   vertical-align: middle;
   display: inline-block;
@@ -5981,26 +5994,25 @@ strong.list-item .clearfix .pull-right *:first-child {
 }
 a.list-item .clearfix .pull-left *:first-child *,
 span.list-item .clearfix .pull-left *:first-child *,
+div.list-item .clearfix .pull-left *:first-child *,
 strong.list-item .clearfix .pull-left *:first-child *,
 a.list-item .clearfix .pull-right *:first-child *,
 span.list-item .clearfix .pull-right *:first-child *,
+div.list-item .clearfix .pull-right *:first-child *,
 strong.list-item .clearfix .pull-right *:first-child * {
   vertical-align: baseline;
 }
 a.list-item .icon:first-child,
 span.list-item .icon:first-child,
+div.list-item .icon:first-child,
 strong.list-item .icon:first-child {
   margin-right: 5px;
 }
-a.list-item:hover,
-span.list-item:hover,
-strong.list-item:hover {
+a.list-item:hover {
   text-decoration: none;
   color: #009688;
 }
-a.list-item:hover:hover,
-span.list-item:hover:hover,
-strong.list-item:hover:hover {
+a.list-item:hover:hover {
   color: #009688;
 }
 .modal {
