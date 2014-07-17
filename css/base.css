@@ -1,6 +1,8 @@
 /*
  Base css file. The compiled .css from this file should be the only file included on your web
 */
+@import "../js/libs/waves/waves.css";
+@import "../fonts/icomoon/style.css";
 .fill-red {
   background-color: #e51c23;
 }
@@ -6271,7 +6273,8 @@ body:before {
   visibility: hidden;
   *display: none;
 }
-.show-on-mobile {
+.show-on-mobile,
+.show-on-tablet {
   display: none;
 }
 a {
@@ -6376,6 +6379,26 @@ hr {
     content: 'desktop';
   }
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  body .show-on-tablet {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+  }
+  body .desktop-nav {
+    display: none;
+  }
+@media (min-width: 768px) and (max-width: 991px) {
+    body:before {
+      content: 'tablet vertical';
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    body:before {
+      content: "tablet horizontal";
+    }
+}
+}
 @media (max-width: 767px) {
   body {
     overflow: hidden;
@@ -6385,7 +6408,9 @@ hr {
     display: none;
   }
   body .show-on-mobile {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
   }
 @media (max-width: 481px) {
     body:before {
