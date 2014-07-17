@@ -4573,6 +4573,26 @@
 .text-right {
   text-align: right;
 }
+.center {
+  text-align: center;
+}
+.center:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.125em;
+  margin-left: -0.125em;
+}
+.center *:first-child {
+  vertical-align: middle;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.center *:first-child * {
+  vertical-align: baseline;
+}
 .block {
   display: block;
 }
@@ -5675,7 +5695,8 @@ input[type=submit]:disabled:active {
 .button.text.disabled:hover:hover {
   color: #bdbdbd;
 }
-a.button:hover {
+a.button:hover,
+a.button:focus {
   text-decoration: none;
 }
 .card {
@@ -6197,7 +6218,6 @@ a.tile {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
-  margin: 0 -2px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -6252,8 +6272,7 @@ a {
   color: #00bcd4;
   text-decoration: none;
 }
-a:hover,
-a:focus {
+a:hover {
   color: #4dd0e1;
   text-decoration: underline;
 }

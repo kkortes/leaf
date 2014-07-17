@@ -15,7 +15,6 @@ $('.icon.icon-list2').on 'click', ->
       $('.top-nav').addClass 'desktop-nav'
   return
 
-
 # properties for alignChildren() function. You can add more targets here. Key = row, values = children to keep track of and resize
 rows = {
   'mod-row' : [
