@@ -5484,9 +5484,7 @@ label:not(div),
 input[type=submit] {
   -webkit-appearance: none;
   border: 0;
-  background: none;
   font-style: normal;
-  color: #00bcd4;
   -webkit-font-smoothing: antialiased;
   padding: 10px 20px;
   -webkit-border-radius: 2px;
@@ -5504,9 +5502,6 @@ input[type=submit] {
   -webkit-box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.12);
   -moz-box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.12);
   box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.12);
-}
-input[type=submit]:hover {
-  color: #00bcd4;
 }
 input[type=submit]:not(.waves-effect):hover {
   background-color: #0097a7;
@@ -5548,7 +5543,7 @@ input[type=submit]:focus {
   outline: 0;
 }
 input[type=submit].flat {
-  color: inherit;
+  background-color: transparent;
 }
 input[type=submit].disabled,
 input[type=submit]:disabled {
@@ -5579,6 +5574,10 @@ input[type=submit]:disabled:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+}
+input[type=submit].disabled:hover,
+input[type=submit]:disabled:hover {
+  background-color: #eee;
 }
 .button {
   padding: 10px 20px;

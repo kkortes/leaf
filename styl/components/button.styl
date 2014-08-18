@@ -29,20 +29,20 @@ button()
 input[type=submit]
   -webkit-appearance:none
   border:0
-  background:none
   font-style:normal
-  text-cyan()
   smooth-font()
   button()
   &:focus
     outline:0
+  &.flat
+    background-color:transparent
   // &:hover
   //   color:darken(#fff, 10%)
-  &.flat
-    color:inherit
   &.disabled,
   &:disabled
     disabled()
+    &:hover
+      fill-grey(200)
 .button
   button()
   &.flat
@@ -82,6 +82,7 @@ a
       text-decoration:none
 i
  &.waves-effect
+   
   &:hover
     input[type=submit]
       background:none
