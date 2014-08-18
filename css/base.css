@@ -1,7 +1,7 @@
 /*
  Base css file. The compiled .css from this file should be the only file included on your web
 */
-@import "../js/libs/waves/waves.css";
+@import "../js/libs/Waves-master/dist/waves.css";
 @import "../fonts/icomoon/style.css";
 .fill-red {
   background-color: #e51c23;
@@ -5484,6 +5484,9 @@ label:not(div),
 input[type=submit] {
   -webkit-appearance: none;
   border: 0;
+  background: none;
+  font-style: normal;
+  color: #00bcd4;
   -webkit-font-smoothing: antialiased;
   padding: 10px 20px;
   -webkit-border-radius: 2px;
@@ -5501,6 +5504,9 @@ input[type=submit] {
   -webkit-box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.12);
   -moz-box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.12);
   box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.12);
+}
+input[type=submit]:hover {
+  color: #00bcd4;
 }
 input[type=submit]:not(.waves-effect):hover {
   background-color: #0097a7;
@@ -5674,6 +5680,13 @@ input[type=submit]:disabled:active {
   -moz-box-shadow: none;
   box-shadow: none;
 }
+.button.flat.waves-effect:hover {
+  background: none;
+  color: #00bcd4;
+}
+.button.flat.waves-effect:hover:hover {
+  color: #00bcd4;
+}
 .button.text {
   background: none;
   padding: 0 20px 0 0;
@@ -5706,6 +5719,13 @@ input[type=submit]:disabled:active {
 a.button:hover,
 a.button:focus {
   text-decoration: none;
+}
+i.waves-effect:hover input[type=submit] {
+  background: none;
+  color: #00bcd4;
+}
+i.waves-effect:hover input[type=submit]:hover {
+  color: #00bcd4;
 }
 .card {
   -webkit-border-radius: 2px;

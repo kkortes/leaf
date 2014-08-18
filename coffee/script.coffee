@@ -141,8 +141,8 @@ initSlider = () ->
   return
 
 initWaves = () ->
-  w = new Waves()
-  w.displayEffect()
+  #w = new Waves()
+  Waves.displayEffect()
 
 init = () ->
   setTimeout ->

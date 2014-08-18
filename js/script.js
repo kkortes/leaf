@@ -191,9 +191,7 @@
   };
 
   initWaves = function() {
-    var w;
-    w = new Waves();
-    return w.displayEffect();
+    return Waves.displayEffect();
   };
 
   init = function() {
