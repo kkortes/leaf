@@ -3,63 +3,63 @@
 */
 @import "../js/libs/Waves-master/dist/waves.css";
 @import "../fonts/icomoon/style.css";
-.fill-red {
+.bg-red {
   background-color: #e51c23;
 }
-.fill-red .fill-minus-1,
-.fill-red.fill-minus-1 {
+.bg-red .bg-minus-1,
+.bg-red.bg-minus-1 {
   background-color: #e84e40;
 }
-.fill-red .fill-minus-2,
-.fill-red.fill-minus-2 {
+.bg-red .bg-minus-2,
+.bg-red.bg-minus-2 {
   background-color: #f36c60;
 }
-.fill-red .fill-minus-3,
-.fill-red.fill-minus-3 {
+.bg-red .bg-minus-3,
+.bg-red.bg-minus-3 {
   background-color: #f69988;
 }
-.fill-red .fill-minus-4,
-.fill-red.fill-minus-4 {
+.bg-red .bg-minus-4,
+.bg-red.bg-minus-4 {
   background-color: #f9bdbb;
 }
-.fill-red .fill-minus-5,
-.fill-red.fill-minus-5 {
+.bg-red .bg-minus-5,
+.bg-red.bg-minus-5 {
   background-color: #fde0dc;
 }
-.fill-red .fill-plus-1,
-.fill-red.fill-plus-1 {
+.bg-red .bg-plus-1,
+.bg-red.bg-plus-1 {
   background-color: #dd191d;
 }
-.fill-red .fill-plus-2,
-.fill-red.fill-plus-2 {
+.bg-red .bg-plus-2,
+.bg-red.bg-plus-2 {
   background-color: #d01716;
 }
-.fill-red .fill-plus-3,
-.fill-red.fill-plus-3 {
+.bg-red .bg-plus-3,
+.bg-red.bg-plus-3 {
   background-color: #c41411;
 }
-.fill-red .fill-plus-4,
-.fill-red.fill-plus-4 {
+.bg-red .bg-plus-4,
+.bg-red.bg-plus-4 {
   background-color: #b0120a;
 }
-.fill-red .fill-accent-1,
-.fill-red.fill-accent-1 {
+.bg-red .bg-accent-1,
+.bg-red.bg-accent-1 {
   background-color: #ff7997;
 }
-.fill-red .fill-accent-2,
-.fill-red.fill-accent-2 {
+.bg-red .bg-accent-2,
+.bg-red.bg-accent-2 {
   background-color: #ff5177;
 }
-.fill-red .fill-accent-3,
-.fill-red.fill-accent-3 {
+.bg-red .bg-accent-3,
+.bg-red.bg-accent-3 {
   background-color: #ff2d6f;
 }
-.fill-red .fill-accent-4,
-.fill-red.fill-accent-4 {
+.bg-red .bg-accent-4,
+.bg-red.bg-accent-4 {
   background-color: #e00032;
 }
-.fill-red .fill-base,
-.fill-red.fill-base {
+.bg-red .bg-base,
+.bg-red.bg-base {
   background-color: #e51c23;
 }
 .text-red {
@@ -239,63 +239,63 @@
 .border-red.border-base {
   border-color: #e51c23;
 }
-.fill-pink {
+.bg-pink {
   background-color: #e91e63;
 }
-.fill-pink .fill-minus-1,
-.fill-pink.fill-minus-1 {
+.bg-pink .bg-minus-1,
+.bg-pink.bg-minus-1 {
   background-color: #ec407a;
 }
-.fill-pink .fill-minus-2,
-.fill-pink.fill-minus-2 {
+.bg-pink .bg-minus-2,
+.bg-pink.bg-minus-2 {
   background-color: #f06292;
 }
-.fill-pink .fill-minus-3,
-.fill-pink.fill-minus-3 {
+.bg-pink .bg-minus-3,
+.bg-pink.bg-minus-3 {
   background-color: #f48fb1;
 }
-.fill-pink .fill-minus-4,
-.fill-pink.fill-minus-4 {
+.bg-pink .bg-minus-4,
+.bg-pink.bg-minus-4 {
   background-color: #f8bbd0;
 }
-.fill-pink .fill-minus-5,
-.fill-pink.fill-minus-5 {
+.bg-pink .bg-minus-5,
+.bg-pink.bg-minus-5 {
   background-color: #fce4ec;
 }
-.fill-pink .fill-plus-1,
-.fill-pink.fill-plus-1 {
+.bg-pink .bg-plus-1,
+.bg-pink.bg-plus-1 {
   background-color: #d81b60;
 }
-.fill-pink .fill-plus-2,
-.fill-pink.fill-plus-2 {
+.bg-pink .bg-plus-2,
+.bg-pink.bg-plus-2 {
   background-color: #c2185b;
 }
-.fill-pink .fill-plus-3,
-.fill-pink.fill-plus-3 {
+.bg-pink .bg-plus-3,
+.bg-pink.bg-plus-3 {
   background-color: #ad1457;
 }
-.fill-pink .fill-plus-4,
-.fill-pink.fill-plus-4 {
+.bg-pink .bg-plus-4,
+.bg-pink.bg-plus-4 {
   background-color: #880e4f;
 }
-.fill-pink .fill-accent-1,
-.fill-pink.fill-accent-1 {
+.bg-pink .bg-accent-1,
+.bg-pink.bg-accent-1 {
   background-color: #ff80ab;
 }
-.fill-pink .fill-accent-2,
-.fill-pink.fill-accent-2 {
+.bg-pink .bg-accent-2,
+.bg-pink.bg-accent-2 {
   background-color: #ff4081;
 }
-.fill-pink .fill-accent-3,
-.fill-pink.fill-accent-3 {
+.bg-pink .bg-accent-3,
+.bg-pink.bg-accent-3 {
   background-color: #f50057;
 }
-.fill-pink .fill-accent-4,
-.fill-pink.fill-accent-4 {
+.bg-pink .bg-accent-4,
+.bg-pink.bg-accent-4 {
   background-color: #c51162;
 }
-.fill-pink .fill-base,
-.fill-pink.fill-base {
+.bg-pink .bg-base,
+.bg-pink.bg-base {
   background-color: #e91e63;
 }
 .text-pink {
@@ -475,63 +475,63 @@
 .border-pink.border-base {
   border-color: #e91e63;
 }
-.fill-purple {
+.bg-purple {
   background-color: #9c27b0;
 }
-.fill-purple .fill-minus-1,
-.fill-purple.fill-minus-1 {
+.bg-purple .bg-minus-1,
+.bg-purple.bg-minus-1 {
   background-color: #ab47bc;
 }
-.fill-purple .fill-minus-2,
-.fill-purple.fill-minus-2 {
+.bg-purple .bg-minus-2,
+.bg-purple.bg-minus-2 {
   background-color: #ba68c8;
 }
-.fill-purple .fill-minus-3,
-.fill-purple.fill-minus-3 {
+.bg-purple .bg-minus-3,
+.bg-purple.bg-minus-3 {
   background-color: #ce93d8;
 }
-.fill-purple .fill-minus-4,
-.fill-purple.fill-minus-4 {
+.bg-purple .bg-minus-4,
+.bg-purple.bg-minus-4 {
   background-color: #e1bee7;
 }
-.fill-purple .fill-minus-5,
-.fill-purple.fill-minus-5 {
+.bg-purple .bg-minus-5,
+.bg-purple.bg-minus-5 {
   background-color: #f3e5f5;
 }
-.fill-purple .fill-plus-1,
-.fill-purple.fill-plus-1 {
+.bg-purple .bg-plus-1,
+.bg-purple.bg-plus-1 {
   background-color: #8e24aa;
 }
-.fill-purple .fill-plus-2,
-.fill-purple.fill-plus-2 {
+.bg-purple .bg-plus-2,
+.bg-purple.bg-plus-2 {
   background-color: #7b1fa2;
 }
-.fill-purple .fill-plus-3,
-.fill-purple.fill-plus-3 {
+.bg-purple .bg-plus-3,
+.bg-purple.bg-plus-3 {
   background-color: #6a1b9a;
 }
-.fill-purple .fill-plus-4,
-.fill-purple.fill-plus-4 {
+.bg-purple .bg-plus-4,
+.bg-purple.bg-plus-4 {
   background-color: #4a148c;
 }
-.fill-purple .fill-accent-1,
-.fill-purple.fill-accent-1 {
+.bg-purple .bg-accent-1,
+.bg-purple.bg-accent-1 {
   background-color: #ea80fc;
 }
-.fill-purple .fill-accent-2,
-.fill-purple.fill-accent-2 {
+.bg-purple .bg-accent-2,
+.bg-purple.bg-accent-2 {
   background-color: #e040fb;
 }
-.fill-purple .fill-accent-3,
-.fill-purple.fill-accent-3 {
+.bg-purple .bg-accent-3,
+.bg-purple.bg-accent-3 {
   background-color: #d500f9;
 }
-.fill-purple .fill-accent-4,
-.fill-purple.fill-accent-4 {
+.bg-purple .bg-accent-4,
+.bg-purple.bg-accent-4 {
   background-color: #a0f;
 }
-.fill-purple .fill-base,
-.fill-purple.fill-base {
+.bg-purple .bg-base,
+.bg-purple.bg-base {
   background-color: #9c27b0;
 }
 .text-purple {
@@ -711,63 +711,63 @@
 .border-purple.border-base {
   border-color: #9c27b0;
 }
-.fill-deep-purple {
+.bg-deep-purple {
   background-color: #673ab7;
 }
-.fill-deep-purple .fill-minus-1,
-.fill-deep-purple.fill-minus-1 {
+.bg-deep-purple .bg-minus-1,
+.bg-deep-purple.bg-minus-1 {
   background-color: #7e57c2;
 }
-.fill-deep-purple .fill-minus-2,
-.fill-deep-purple.fill-minus-2 {
+.bg-deep-purple .bg-minus-2,
+.bg-deep-purple.bg-minus-2 {
   background-color: #9575cd;
 }
-.fill-deep-purple .fill-minus-3,
-.fill-deep-purple.fill-minus-3 {
+.bg-deep-purple .bg-minus-3,
+.bg-deep-purple.bg-minus-3 {
   background-color: #b39ddb;
 }
-.fill-deep-purple .fill-minus-4,
-.fill-deep-purple.fill-minus-4 {
+.bg-deep-purple .bg-minus-4,
+.bg-deep-purple.bg-minus-4 {
   background-color: #d1c4e9;
 }
-.fill-deep-purple .fill-minus-5,
-.fill-deep-purple.fill-minus-5 {
+.bg-deep-purple .bg-minus-5,
+.bg-deep-purple.bg-minus-5 {
   background-color: #ede7f6;
 }
-.fill-deep-purple .fill-plus-1,
-.fill-deep-purple.fill-plus-1 {
+.bg-deep-purple .bg-plus-1,
+.bg-deep-purple.bg-plus-1 {
   background-color: #5e35b1;
 }
-.fill-deep-purple .fill-plus-2,
-.fill-deep-purple.fill-plus-2 {
+.bg-deep-purple .bg-plus-2,
+.bg-deep-purple.bg-plus-2 {
   background-color: #512da8;
 }
-.fill-deep-purple .fill-plus-3,
-.fill-deep-purple.fill-plus-3 {
+.bg-deep-purple .bg-plus-3,
+.bg-deep-purple.bg-plus-3 {
   background-color: #4527a0;
 }
-.fill-deep-purple .fill-plus-4,
-.fill-deep-purple.fill-plus-4 {
+.bg-deep-purple .bg-plus-4,
+.bg-deep-purple.bg-plus-4 {
   background-color: #311b92;
 }
-.fill-deep-purple .fill-accent-1,
-.fill-deep-purple.fill-accent-1 {
+.bg-deep-purple .bg-accent-1,
+.bg-deep-purple.bg-accent-1 {
   background-color: #b388ff;
 }
-.fill-deep-purple .fill-accent-2,
-.fill-deep-purple.fill-accent-2 {
+.bg-deep-purple .bg-accent-2,
+.bg-deep-purple.bg-accent-2 {
   background-color: #7c4dff;
 }
-.fill-deep-purple .fill-accent-3,
-.fill-deep-purple.fill-accent-3 {
+.bg-deep-purple .bg-accent-3,
+.bg-deep-purple.bg-accent-3 {
   background-color: #651fff;
 }
-.fill-deep-purple .fill-accent-4,
-.fill-deep-purple.fill-accent-4 {
+.bg-deep-purple .bg-accent-4,
+.bg-deep-purple.bg-accent-4 {
   background-color: #6200ea;
 }
-.fill-deep-purple .fill-base,
-.fill-deep-purple.fill-base {
+.bg-deep-purple .bg-base,
+.bg-deep-purple.bg-base {
   background-color: #673ab7;
 }
 .text-deep-purple {
@@ -947,63 +947,63 @@
 .border-deep-purple.border-base {
   border-color: #673ab7;
 }
-.fill-indigo {
+.bg-indigo {
   background-color: #3f51b5;
 }
-.fill-indigo .fill-minus-1,
-.fill-indigo.fill-minus-1 {
+.bg-indigo .bg-minus-1,
+.bg-indigo.bg-minus-1 {
   background-color: #5c6bc0;
 }
-.fill-indigo .fill-minus-2,
-.fill-indigo.fill-minus-2 {
+.bg-indigo .bg-minus-2,
+.bg-indigo.bg-minus-2 {
   background-color: #7986cb;
 }
-.fill-indigo .fill-minus-3,
-.fill-indigo.fill-minus-3 {
+.bg-indigo .bg-minus-3,
+.bg-indigo.bg-minus-3 {
   background-color: #9fa8da;
 }
-.fill-indigo .fill-minus-4,
-.fill-indigo.fill-minus-4 {
+.bg-indigo .bg-minus-4,
+.bg-indigo.bg-minus-4 {
   background-color: #c5cae9;
 }
-.fill-indigo .fill-minus-5,
-.fill-indigo.fill-minus-5 {
+.bg-indigo .bg-minus-5,
+.bg-indigo.bg-minus-5 {
   background-color: #e8eaf6;
 }
-.fill-indigo .fill-plus-1,
-.fill-indigo.fill-plus-1 {
+.bg-indigo .bg-plus-1,
+.bg-indigo.bg-plus-1 {
   background-color: #3949ab;
 }
-.fill-indigo .fill-plus-2,
-.fill-indigo.fill-plus-2 {
+.bg-indigo .bg-plus-2,
+.bg-indigo.bg-plus-2 {
   background-color: #303f9f;
 }
-.fill-indigo .fill-plus-3,
-.fill-indigo.fill-plus-3 {
+.bg-indigo .bg-plus-3,
+.bg-indigo.bg-plus-3 {
   background-color: #283593;
 }
-.fill-indigo .fill-plus-4,
-.fill-indigo.fill-plus-4 {
+.bg-indigo .bg-plus-4,
+.bg-indigo.bg-plus-4 {
   background-color: #1a237e;
 }
-.fill-indigo .fill-accent-1,
-.fill-indigo.fill-accent-1 {
+.bg-indigo .bg-accent-1,
+.bg-indigo.bg-accent-1 {
   background-color: #8c9eff;
 }
-.fill-indigo .fill-accent-2,
-.fill-indigo.fill-accent-2 {
+.bg-indigo .bg-accent-2,
+.bg-indigo.bg-accent-2 {
   background-color: #536dfe;
 }
-.fill-indigo .fill-accent-3,
-.fill-indigo.fill-accent-3 {
+.bg-indigo .bg-accent-3,
+.bg-indigo.bg-accent-3 {
   background-color: #536dfe;
 }
-.fill-indigo .fill-accent-4,
-.fill-indigo.fill-accent-4 {
+.bg-indigo .bg-accent-4,
+.bg-indigo.bg-accent-4 {
   background-color: #304ffe;
 }
-.fill-indigo .fill-base,
-.fill-indigo.fill-base {
+.bg-indigo .bg-base,
+.bg-indigo.bg-base {
   background-color: #3f51b5;
 }
 .text-indigo {
@@ -1183,63 +1183,63 @@
 .border-indigo.border-base {
   border-color: #3f51b5;
 }
-.fill-light-blue {
+.bg-light-blue {
   background-color: #03a9f4;
 }
-.fill-light-blue .fill-minus-1,
-.fill-light-blue.fill-minus-1 {
+.bg-light-blue .bg-minus-1,
+.bg-light-blue.bg-minus-1 {
   background-color: #29b6f6;
 }
-.fill-light-blue .fill-minus-2,
-.fill-light-blue.fill-minus-2 {
+.bg-light-blue .bg-minus-2,
+.bg-light-blue.bg-minus-2 {
   background-color: #4fc3f7;
 }
-.fill-light-blue .fill-minus-3,
-.fill-light-blue.fill-minus-3 {
+.bg-light-blue .bg-minus-3,
+.bg-light-blue.bg-minus-3 {
   background-color: #81d4fa;
 }
-.fill-light-blue .fill-minus-4,
-.fill-light-blue.fill-minus-4 {
+.bg-light-blue .bg-minus-4,
+.bg-light-blue.bg-minus-4 {
   background-color: #b3e5fc;
 }
-.fill-light-blue .fill-minus-5,
-.fill-light-blue.fill-minus-5 {
+.bg-light-blue .bg-minus-5,
+.bg-light-blue.bg-minus-5 {
   background-color: #e1f5fe;
 }
-.fill-light-blue .fill-plus-1,
-.fill-light-blue.fill-plus-1 {
+.bg-light-blue .bg-plus-1,
+.bg-light-blue.bg-plus-1 {
   background-color: #039be5;
 }
-.fill-light-blue .fill-plus-2,
-.fill-light-blue.fill-plus-2 {
+.bg-light-blue .bg-plus-2,
+.bg-light-blue.bg-plus-2 {
   background-color: #0288d1;
 }
-.fill-light-blue .fill-plus-3,
-.fill-light-blue.fill-plus-3 {
+.bg-light-blue .bg-plus-3,
+.bg-light-blue.bg-plus-3 {
   background-color: #0277bd;
 }
-.fill-light-blue .fill-plus-4,
-.fill-light-blue.fill-plus-4 {
+.bg-light-blue .bg-plus-4,
+.bg-light-blue.bg-plus-4 {
   background-color: #01579b;
 }
-.fill-light-blue .fill-accent-1,
-.fill-light-blue.fill-accent-1 {
+.bg-light-blue .bg-accent-1,
+.bg-light-blue.bg-accent-1 {
   background-color: #80d8ff;
 }
-.fill-light-blue .fill-accent-2,
-.fill-light-blue.fill-accent-2 {
+.bg-light-blue .bg-accent-2,
+.bg-light-blue.bg-accent-2 {
   background-color: #40c4ff;
 }
-.fill-light-blue .fill-accent-3,
-.fill-light-blue.fill-accent-3 {
+.bg-light-blue .bg-accent-3,
+.bg-light-blue.bg-accent-3 {
   background-color: #00b0ff;
 }
-.fill-light-blue .fill-accent-4,
-.fill-light-blue.fill-accent-4 {
+.bg-light-blue .bg-accent-4,
+.bg-light-blue.bg-accent-4 {
   background-color: #0091ea;
 }
-.fill-light-blue .fill-base,
-.fill-light-blue.fill-base {
+.bg-light-blue .bg-base,
+.bg-light-blue.bg-base {
   background-color: #03a9f4;
 }
 .text-light-blue {
@@ -1419,63 +1419,63 @@
 .border-light-blue.border-base {
   border-color: #03a9f4;
 }
-.fill-cyan {
+.bg-cyan {
   background-color: #00bcd4;
 }
-.fill-cyan .fill-minus-1,
-.fill-cyan.fill-minus-1 {
+.bg-cyan .bg-minus-1,
+.bg-cyan.bg-minus-1 {
   background-color: #26c6da;
 }
-.fill-cyan .fill-minus-2,
-.fill-cyan.fill-minus-2 {
+.bg-cyan .bg-minus-2,
+.bg-cyan.bg-minus-2 {
   background-color: #4dd0e1;
 }
-.fill-cyan .fill-minus-3,
-.fill-cyan.fill-minus-3 {
+.bg-cyan .bg-minus-3,
+.bg-cyan.bg-minus-3 {
   background-color: #80deea;
 }
-.fill-cyan .fill-minus-4,
-.fill-cyan.fill-minus-4 {
+.bg-cyan .bg-minus-4,
+.bg-cyan.bg-minus-4 {
   background-color: #b2ebf2;
 }
-.fill-cyan .fill-minus-5,
-.fill-cyan.fill-minus-5 {
+.bg-cyan .bg-minus-5,
+.bg-cyan.bg-minus-5 {
   background-color: #e0f7fa;
 }
-.fill-cyan .fill-plus-1,
-.fill-cyan.fill-plus-1 {
+.bg-cyan .bg-plus-1,
+.bg-cyan.bg-plus-1 {
   background-color: #00acc1;
 }
-.fill-cyan .fill-plus-2,
-.fill-cyan.fill-plus-2 {
+.bg-cyan .bg-plus-2,
+.bg-cyan.bg-plus-2 {
   background-color: #0097a7;
 }
-.fill-cyan .fill-plus-3,
-.fill-cyan.fill-plus-3 {
+.bg-cyan .bg-plus-3,
+.bg-cyan.bg-plus-3 {
   background-color: #00838f;
 }
-.fill-cyan .fill-plus-4,
-.fill-cyan.fill-plus-4 {
+.bg-cyan .bg-plus-4,
+.bg-cyan.bg-plus-4 {
   background-color: #006064;
 }
-.fill-cyan .fill-accent-1,
-.fill-cyan.fill-accent-1 {
+.bg-cyan .bg-accent-1,
+.bg-cyan.bg-accent-1 {
   background-color: #84ffff;
 }
-.fill-cyan .fill-accent-2,
-.fill-cyan.fill-accent-2 {
+.bg-cyan .bg-accent-2,
+.bg-cyan.bg-accent-2 {
   background-color: #18ffff;
 }
-.fill-cyan .fill-accent-3,
-.fill-cyan.fill-accent-3 {
+.bg-cyan .bg-accent-3,
+.bg-cyan.bg-accent-3 {
   background-color: #00e5ff;
 }
-.fill-cyan .fill-accent-4,
-.fill-cyan.fill-accent-4 {
+.bg-cyan .bg-accent-4,
+.bg-cyan.bg-accent-4 {
   background-color: #00b8d4;
 }
-.fill-cyan .fill-base,
-.fill-cyan.fill-base {
+.bg-cyan .bg-base,
+.bg-cyan.bg-base {
   background-color: #00bcd4;
 }
 .text-cyan {
@@ -1655,63 +1655,63 @@
 .border-cyan.border-base {
   border-color: #00bcd4;
 }
-.fill-teal {
+.bg-teal {
   background-color: #009688;
 }
-.fill-teal .fill-minus-1,
-.fill-teal.fill-minus-1 {
+.bg-teal .bg-minus-1,
+.bg-teal.bg-minus-1 {
   background-color: #26a69a;
 }
-.fill-teal .fill-minus-2,
-.fill-teal.fill-minus-2 {
+.bg-teal .bg-minus-2,
+.bg-teal.bg-minus-2 {
   background-color: #4db6ac;
 }
-.fill-teal .fill-minus-3,
-.fill-teal.fill-minus-3 {
+.bg-teal .bg-minus-3,
+.bg-teal.bg-minus-3 {
   background-color: #80cbc4;
 }
-.fill-teal .fill-minus-4,
-.fill-teal.fill-minus-4 {
+.bg-teal .bg-minus-4,
+.bg-teal.bg-minus-4 {
   background-color: #b2dfdb;
 }
-.fill-teal .fill-minus-5,
-.fill-teal.fill-minus-5 {
+.bg-teal .bg-minus-5,
+.bg-teal.bg-minus-5 {
   background-color: #e0f2f1;
 }
-.fill-teal .fill-plus-1,
-.fill-teal.fill-plus-1 {
+.bg-teal .bg-plus-1,
+.bg-teal.bg-plus-1 {
   background-color: #00897b;
 }
-.fill-teal .fill-plus-2,
-.fill-teal.fill-plus-2 {
+.bg-teal .bg-plus-2,
+.bg-teal.bg-plus-2 {
   background-color: #00796b;
 }
-.fill-teal .fill-plus-3,
-.fill-teal.fill-plus-3 {
+.bg-teal .bg-plus-3,
+.bg-teal.bg-plus-3 {
   background-color: #00695c;
 }
-.fill-teal .fill-plus-4,
-.fill-teal.fill-plus-4 {
+.bg-teal .bg-plus-4,
+.bg-teal.bg-plus-4 {
   background-color: #004d40;
 }
-.fill-teal .fill-accent-1,
-.fill-teal.fill-accent-1 {
+.bg-teal .bg-accent-1,
+.bg-teal.bg-accent-1 {
   background-color: #a7ffeb;
 }
-.fill-teal .fill-accent-2,
-.fill-teal.fill-accent-2 {
+.bg-teal .bg-accent-2,
+.bg-teal.bg-accent-2 {
   background-color: #64ffda;
 }
-.fill-teal .fill-accent-3,
-.fill-teal.fill-accent-3 {
+.bg-teal .bg-accent-3,
+.bg-teal.bg-accent-3 {
   background-color: #1de9b6;
 }
-.fill-teal .fill-accent-4,
-.fill-teal.fill-accent-4 {
+.bg-teal .bg-accent-4,
+.bg-teal.bg-accent-4 {
   background-color: #00bfa5;
 }
-.fill-teal .fill-base,
-.fill-teal.fill-base {
+.bg-teal .bg-base,
+.bg-teal.bg-base {
   background-color: #009688;
 }
 .text-teal {
@@ -1891,63 +1891,63 @@
 .border-teal.border-base {
   border-color: #009688;
 }
-.fill-green {
+.bg-green {
   background-color: #259b24;
 }
-.fill-green .fill-minus-1,
-.fill-green.fill-minus-1 {
+.bg-green .bg-minus-1,
+.bg-green.bg-minus-1 {
   background-color: #2baf2b;
 }
-.fill-green .fill-minus-2,
-.fill-green.fill-minus-2 {
+.bg-green .bg-minus-2,
+.bg-green.bg-minus-2 {
   background-color: #42bd41;
 }
-.fill-green .fill-minus-3,
-.fill-green.fill-minus-3 {
+.bg-green .bg-minus-3,
+.bg-green.bg-minus-3 {
   background-color: #72d572;
 }
-.fill-green .fill-minus-4,
-.fill-green.fill-minus-4 {
+.bg-green .bg-minus-4,
+.bg-green.bg-minus-4 {
   background-color: #a3e9a4;
 }
-.fill-green .fill-minus-5,
-.fill-green.fill-minus-5 {
+.bg-green .bg-minus-5,
+.bg-green.bg-minus-5 {
   background-color: #d0f8ce;
 }
-.fill-green .fill-plus-1,
-.fill-green.fill-plus-1 {
+.bg-green .bg-plus-1,
+.bg-green.bg-plus-1 {
   background-color: #0a8f08;
 }
-.fill-green .fill-plus-2,
-.fill-green.fill-plus-2 {
+.bg-green .bg-plus-2,
+.bg-green.bg-plus-2 {
   background-color: #0a7e07;
 }
-.fill-green .fill-plus-3,
-.fill-green.fill-plus-3 {
+.bg-green .bg-plus-3,
+.bg-green.bg-plus-3 {
   background-color: #056f00;
 }
-.fill-green .fill-plus-4,
-.fill-green.fill-plus-4 {
+.bg-green .bg-plus-4,
+.bg-green.bg-plus-4 {
   background-color: #0d5302;
 }
-.fill-green .fill-accent-1,
-.fill-green.fill-accent-1 {
+.bg-green .bg-accent-1,
+.bg-green.bg-accent-1 {
   background-color: #a2f78d;
 }
-.fill-green .fill-accent-2,
-.fill-green.fill-accent-2 {
+.bg-green .bg-accent-2,
+.bg-green.bg-accent-2 {
   background-color: #5af158;
 }
-.fill-green .fill-accent-3,
-.fill-green.fill-accent-3 {
+.bg-green .bg-accent-3,
+.bg-green.bg-accent-3 {
   background-color: #14e715;
 }
-.fill-green .fill-accent-4,
-.fill-green.fill-accent-4 {
+.bg-green .bg-accent-4,
+.bg-green.bg-accent-4 {
   background-color: #12c700;
 }
-.fill-green .fill-base,
-.fill-green.fill-base {
+.bg-green .bg-base,
+.bg-green.bg-base {
   background-color: #259b24;
 }
 .text-green {
@@ -2127,63 +2127,63 @@
 .border-green.border-base {
   border-color: #259b24;
 }
-.fill-light-green {
+.bg-light-green {
   background-color: #8bc34a;
 }
-.fill-light-green .fill-minus-1,
-.fill-light-green.fill-minus-1 {
+.bg-light-green .bg-minus-1,
+.bg-light-green.bg-minus-1 {
   background-color: #9ccc65;
 }
-.fill-light-green .fill-minus-2,
-.fill-light-green.fill-minus-2 {
+.bg-light-green .bg-minus-2,
+.bg-light-green.bg-minus-2 {
   background-color: #aed581;
 }
-.fill-light-green .fill-minus-3,
-.fill-light-green.fill-minus-3 {
+.bg-light-green .bg-minus-3,
+.bg-light-green.bg-minus-3 {
   background-color: #c5e1a5;
 }
-.fill-light-green .fill-minus-4,
-.fill-light-green.fill-minus-4 {
+.bg-light-green .bg-minus-4,
+.bg-light-green.bg-minus-4 {
   background-color: #dcedc8;
 }
-.fill-light-green .fill-minus-5,
-.fill-light-green.fill-minus-5 {
+.bg-light-green .bg-minus-5,
+.bg-light-green.bg-minus-5 {
   background-color: #f1f8e9;
 }
-.fill-light-green .fill-plus-1,
-.fill-light-green.fill-plus-1 {
+.bg-light-green .bg-plus-1,
+.bg-light-green.bg-plus-1 {
   background-color: #7cb342;
 }
-.fill-light-green .fill-plus-2,
-.fill-light-green.fill-plus-2 {
+.bg-light-green .bg-plus-2,
+.bg-light-green.bg-plus-2 {
   background-color: #689f38;
 }
-.fill-light-green .fill-plus-3,
-.fill-light-green.fill-plus-3 {
+.bg-light-green .bg-plus-3,
+.bg-light-green.bg-plus-3 {
   background-color: #558b2f;
 }
-.fill-light-green .fill-plus-4,
-.fill-light-green.fill-plus-4 {
+.bg-light-green .bg-plus-4,
+.bg-light-green.bg-plus-4 {
   background-color: #33691e;
 }
-.fill-light-green .fill-accent-1,
-.fill-light-green.fill-accent-1 {
+.bg-light-green .bg-accent-1,
+.bg-light-green.bg-accent-1 {
   background-color: #ccff90;
 }
-.fill-light-green .fill-accent-2,
-.fill-light-green.fill-accent-2 {
+.bg-light-green .bg-accent-2,
+.bg-light-green.bg-accent-2 {
   background-color: #b2ff59;
 }
-.fill-light-green .fill-accent-3,
-.fill-light-green.fill-accent-3 {
+.bg-light-green .bg-accent-3,
+.bg-light-green.bg-accent-3 {
   background-color: #76ff03;
 }
-.fill-light-green .fill-accent-4,
-.fill-light-green.fill-accent-4 {
+.bg-light-green .bg-accent-4,
+.bg-light-green.bg-accent-4 {
   background-color: #64dd17;
 }
-.fill-light-green .fill-base,
-.fill-light-green.fill-base {
+.bg-light-green .bg-base,
+.bg-light-green.bg-base {
   background-color: #8bc34a;
 }
 .text-light-green {
@@ -2363,63 +2363,63 @@
 .border-light-green.border-base {
   border-color: #8bc34a;
 }
-.fill-lime {
+.bg-lime {
   background-color: #cddc39;
 }
-.fill-lime .fill-minus-1,
-.fill-lime.fill-minus-1 {
+.bg-lime .bg-minus-1,
+.bg-lime.bg-minus-1 {
   background-color: #d4e157;
 }
-.fill-lime .fill-minus-2,
-.fill-lime.fill-minus-2 {
+.bg-lime .bg-minus-2,
+.bg-lime.bg-minus-2 {
   background-color: #dce775;
 }
-.fill-lime .fill-minus-3,
-.fill-lime.fill-minus-3 {
+.bg-lime .bg-minus-3,
+.bg-lime.bg-minus-3 {
   background-color: #e6ee9c;
 }
-.fill-lime .fill-minus-4,
-.fill-lime.fill-minus-4 {
+.bg-lime .bg-minus-4,
+.bg-lime.bg-minus-4 {
   background-color: #f0f4c3;
 }
-.fill-lime .fill-minus-5,
-.fill-lime.fill-minus-5 {
+.bg-lime .bg-minus-5,
+.bg-lime.bg-minus-5 {
   background-color: #f9fbe7;
 }
-.fill-lime .fill-plus-1,
-.fill-lime.fill-plus-1 {
+.bg-lime .bg-plus-1,
+.bg-lime.bg-plus-1 {
   background-color: #c0ca33;
 }
-.fill-lime .fill-plus-2,
-.fill-lime.fill-plus-2 {
+.bg-lime .bg-plus-2,
+.bg-lime.bg-plus-2 {
   background-color: #afb42b;
 }
-.fill-lime .fill-plus-3,
-.fill-lime.fill-plus-3 {
+.bg-lime .bg-plus-3,
+.bg-lime.bg-plus-3 {
   background-color: #9e9d24;
 }
-.fill-lime .fill-plus-4,
-.fill-lime.fill-plus-4 {
+.bg-lime .bg-plus-4,
+.bg-lime.bg-plus-4 {
   background-color: #827717;
 }
-.fill-lime .fill-accent-1,
-.fill-lime.fill-accent-1 {
+.bg-lime .bg-accent-1,
+.bg-lime.bg-accent-1 {
   background-color: #f4ff81;
 }
-.fill-lime .fill-accent-2,
-.fill-lime.fill-accent-2 {
+.bg-lime .bg-accent-2,
+.bg-lime.bg-accent-2 {
   background-color: #eeff41;
 }
-.fill-lime .fill-accent-3,
-.fill-lime.fill-accent-3 {
+.bg-lime .bg-accent-3,
+.bg-lime.bg-accent-3 {
   background-color: #c6ff00;
 }
-.fill-lime .fill-accent-4,
-.fill-lime.fill-accent-4 {
+.bg-lime .bg-accent-4,
+.bg-lime.bg-accent-4 {
   background-color: #aeea00;
 }
-.fill-lime .fill-base,
-.fill-lime.fill-base {
+.bg-lime .bg-base,
+.bg-lime.bg-base {
   background-color: #cddc39;
 }
 .text-lime {
@@ -2599,63 +2599,63 @@
 .border-lime.border-base {
   border-color: #cddc39;
 }
-.fill-yellow {
+.bg-yellow {
   background-color: #ffeb3b;
 }
-.fill-yellow .fill-minus-1,
-.fill-yellow.fill-minus-1 {
+.bg-yellow .bg-minus-1,
+.bg-yellow.bg-minus-1 {
   background-color: #ffee58;
 }
-.fill-yellow .fill-minus-2,
-.fill-yellow.fill-minus-2 {
+.bg-yellow .bg-minus-2,
+.bg-yellow.bg-minus-2 {
   background-color: #fff176;
 }
-.fill-yellow .fill-minus-3,
-.fill-yellow.fill-minus-3 {
+.bg-yellow .bg-minus-3,
+.bg-yellow.bg-minus-3 {
   background-color: #fff59d;
 }
-.fill-yellow .fill-minus-4,
-.fill-yellow.fill-minus-4 {
+.bg-yellow .bg-minus-4,
+.bg-yellow.bg-minus-4 {
   background-color: #fff9c4;
 }
-.fill-yellow .fill-minus-5,
-.fill-yellow.fill-minus-5 {
+.bg-yellow .bg-minus-5,
+.bg-yellow.bg-minus-5 {
   background-color: #fffde7;
 }
-.fill-yellow .fill-plus-1,
-.fill-yellow.fill-plus-1 {
+.bg-yellow .bg-plus-1,
+.bg-yellow.bg-plus-1 {
   background-color: #fdd835;
 }
-.fill-yellow .fill-plus-2,
-.fill-yellow.fill-plus-2 {
+.bg-yellow .bg-plus-2,
+.bg-yellow.bg-plus-2 {
   background-color: #fbc02d;
 }
-.fill-yellow .fill-plus-3,
-.fill-yellow.fill-plus-3 {
+.bg-yellow .bg-plus-3,
+.bg-yellow.bg-plus-3 {
   background-color: #f9a825;
 }
-.fill-yellow .fill-plus-4,
-.fill-yellow.fill-plus-4 {
+.bg-yellow .bg-plus-4,
+.bg-yellow.bg-plus-4 {
   background-color: #f57f17;
 }
-.fill-yellow .fill-accent-1,
-.fill-yellow.fill-accent-1 {
+.bg-yellow .bg-accent-1,
+.bg-yellow.bg-accent-1 {
   background-color: #ffff8d;
 }
-.fill-yellow .fill-accent-2,
-.fill-yellow.fill-accent-2 {
+.bg-yellow .bg-accent-2,
+.bg-yellow.bg-accent-2 {
   background-color: #ff0;
 }
-.fill-yellow .fill-accent-3,
-.fill-yellow.fill-accent-3 {
+.bg-yellow .bg-accent-3,
+.bg-yellow.bg-accent-3 {
   background-color: #ffea00;
 }
-.fill-yellow .fill-accent-4,
-.fill-yellow.fill-accent-4 {
+.bg-yellow .bg-accent-4,
+.bg-yellow.bg-accent-4 {
   background-color: #ffd600;
 }
-.fill-yellow .fill-base,
-.fill-yellow.fill-base {
+.bg-yellow .bg-base,
+.bg-yellow.bg-base {
   background-color: #ffeb3b;
 }
 .text-yellow {
@@ -2835,63 +2835,63 @@
 .border-yellow.border-base {
   border-color: #ffeb3b;
 }
-.fill-amber {
+.bg-amber {
   background-color: #ffc107;
 }
-.fill-amber .fill-minus-1,
-.fill-amber.fill-minus-1 {
+.bg-amber .bg-minus-1,
+.bg-amber.bg-minus-1 {
   background-color: #ffca28;
 }
-.fill-amber .fill-minus-2,
-.fill-amber.fill-minus-2 {
+.bg-amber .bg-minus-2,
+.bg-amber.bg-minus-2 {
   background-color: #ffd54f;
 }
-.fill-amber .fill-minus-3,
-.fill-amber.fill-minus-3 {
+.bg-amber .bg-minus-3,
+.bg-amber.bg-minus-3 {
   background-color: #ffe082;
 }
-.fill-amber .fill-minus-4,
-.fill-amber.fill-minus-4 {
+.bg-amber .bg-minus-4,
+.bg-amber.bg-minus-4 {
   background-color: #ffecb3;
 }
-.fill-amber .fill-minus-5,
-.fill-amber.fill-minus-5 {
+.bg-amber .bg-minus-5,
+.bg-amber.bg-minus-5 {
   background-color: #fff8e1;
 }
-.fill-amber .fill-plus-1,
-.fill-amber.fill-plus-1 {
+.bg-amber .bg-plus-1,
+.bg-amber.bg-plus-1 {
   background-color: #ffb300;
 }
-.fill-amber .fill-plus-2,
-.fill-amber.fill-plus-2 {
+.bg-amber .bg-plus-2,
+.bg-amber.bg-plus-2 {
   background-color: #ffa000;
 }
-.fill-amber .fill-plus-3,
-.fill-amber.fill-plus-3 {
+.bg-amber .bg-plus-3,
+.bg-amber.bg-plus-3 {
   background-color: #ff8f00;
 }
-.fill-amber .fill-plus-4,
-.fill-amber.fill-plus-4 {
+.bg-amber .bg-plus-4,
+.bg-amber.bg-plus-4 {
   background-color: #ff6f00;
 }
-.fill-amber .fill-accent-1,
-.fill-amber.fill-accent-1 {
+.bg-amber .bg-accent-1,
+.bg-amber.bg-accent-1 {
   background-color: #ffe57f;
 }
-.fill-amber .fill-accent-2,
-.fill-amber.fill-accent-2 {
+.bg-amber .bg-accent-2,
+.bg-amber.bg-accent-2 {
   background-color: #ffd740;
 }
-.fill-amber .fill-accent-3,
-.fill-amber.fill-accent-3 {
+.bg-amber .bg-accent-3,
+.bg-amber.bg-accent-3 {
   background-color: #ffc400;
 }
-.fill-amber .fill-accent-4,
-.fill-amber.fill-accent-4 {
+.bg-amber .bg-accent-4,
+.bg-amber.bg-accent-4 {
   background-color: #ffab00;
 }
-.fill-amber .fill-base,
-.fill-amber.fill-base {
+.bg-amber .bg-base,
+.bg-amber.bg-base {
   background-color: #ffc107;
 }
 .text-amber {
@@ -3071,63 +3071,63 @@
 .border-amber.border-base {
   border-color: #ffc107;
 }
-.fill-orange {
+.bg-orange {
   background-color: #ff9800;
 }
-.fill-orange .fill-minus-1,
-.fill-orange.fill-minus-1 {
+.bg-orange .bg-minus-1,
+.bg-orange.bg-minus-1 {
   background-color: #ffa726;
 }
-.fill-orange .fill-minus-2,
-.fill-orange.fill-minus-2 {
+.bg-orange .bg-minus-2,
+.bg-orange.bg-minus-2 {
   background-color: #ffb74d;
 }
-.fill-orange .fill-minus-3,
-.fill-orange.fill-minus-3 {
+.bg-orange .bg-minus-3,
+.bg-orange.bg-minus-3 {
   background-color: #ffcc80;
 }
-.fill-orange .fill-minus-4,
-.fill-orange.fill-minus-4 {
+.bg-orange .bg-minus-4,
+.bg-orange.bg-minus-4 {
   background-color: #ffe0b2;
 }
-.fill-orange .fill-minus-5,
-.fill-orange.fill-minus-5 {
+.bg-orange .bg-minus-5,
+.bg-orange.bg-minus-5 {
   background-color: #fff3e0;
 }
-.fill-orange .fill-plus-1,
-.fill-orange.fill-plus-1 {
+.bg-orange .bg-plus-1,
+.bg-orange.bg-plus-1 {
   background-color: #fb8c00;
 }
-.fill-orange .fill-plus-2,
-.fill-orange.fill-plus-2 {
+.bg-orange .bg-plus-2,
+.bg-orange.bg-plus-2 {
   background-color: #f57c00;
 }
-.fill-orange .fill-plus-3,
-.fill-orange.fill-plus-3 {
+.bg-orange .bg-plus-3,
+.bg-orange.bg-plus-3 {
   background-color: #ef6c00;
 }
-.fill-orange .fill-plus-4,
-.fill-orange.fill-plus-4 {
+.bg-orange .bg-plus-4,
+.bg-orange.bg-plus-4 {
   background-color: #e65100;
 }
-.fill-orange .fill-accent-1,
-.fill-orange.fill-accent-1 {
+.bg-orange .bg-accent-1,
+.bg-orange.bg-accent-1 {
   background-color: #ffd180;
 }
-.fill-orange .fill-accent-2,
-.fill-orange.fill-accent-2 {
+.bg-orange .bg-accent-2,
+.bg-orange.bg-accent-2 {
   background-color: #ffab40;
 }
-.fill-orange .fill-accent-3,
-.fill-orange.fill-accent-3 {
+.bg-orange .bg-accent-3,
+.bg-orange.bg-accent-3 {
   background-color: #ff9100;
 }
-.fill-orange .fill-accent-4,
-.fill-orange.fill-accent-4 {
+.bg-orange .bg-accent-4,
+.bg-orange.bg-accent-4 {
   background-color: #ff6d00;
 }
-.fill-orange .fill-base,
-.fill-orange.fill-base {
+.bg-orange .bg-base,
+.bg-orange.bg-base {
   background-color: #ff9800;
 }
 .text-orange {
@@ -3307,63 +3307,63 @@
 .border-orange.border-base {
   border-color: #ff9800;
 }
-.fill-deep-orange {
+.bg-deep-orange {
   background-color: #ff5722;
 }
-.fill-deep-orange .fill-minus-1,
-.fill-deep-orange.fill-minus-1 {
+.bg-deep-orange .bg-minus-1,
+.bg-deep-orange.bg-minus-1 {
   background-color: #ff7043;
 }
-.fill-deep-orange .fill-minus-2,
-.fill-deep-orange.fill-minus-2 {
+.bg-deep-orange .bg-minus-2,
+.bg-deep-orange.bg-minus-2 {
   background-color: #ff8a65;
 }
-.fill-deep-orange .fill-minus-3,
-.fill-deep-orange.fill-minus-3 {
+.bg-deep-orange .bg-minus-3,
+.bg-deep-orange.bg-minus-3 {
   background-color: #ffab91;
 }
-.fill-deep-orange .fill-minus-4,
-.fill-deep-orange.fill-minus-4 {
+.bg-deep-orange .bg-minus-4,
+.bg-deep-orange.bg-minus-4 {
   background-color: #ffccbc;
 }
-.fill-deep-orange .fill-minus-5,
-.fill-deep-orange.fill-minus-5 {
+.bg-deep-orange .bg-minus-5,
+.bg-deep-orange.bg-minus-5 {
   background-color: #fbe9e7;
 }
-.fill-deep-orange .fill-plus-1,
-.fill-deep-orange.fill-plus-1 {
+.bg-deep-orange .bg-plus-1,
+.bg-deep-orange.bg-plus-1 {
   background-color: #f4511e;
 }
-.fill-deep-orange .fill-plus-2,
-.fill-deep-orange.fill-plus-2 {
+.bg-deep-orange .bg-plus-2,
+.bg-deep-orange.bg-plus-2 {
   background-color: #e64a19;
 }
-.fill-deep-orange .fill-plus-3,
-.fill-deep-orange.fill-plus-3 {
+.bg-deep-orange .bg-plus-3,
+.bg-deep-orange.bg-plus-3 {
   background-color: #d84315;
 }
-.fill-deep-orange .fill-plus-4,
-.fill-deep-orange.fill-plus-4 {
+.bg-deep-orange .bg-plus-4,
+.bg-deep-orange.bg-plus-4 {
   background-color: #bf360c;
 }
-.fill-deep-orange .fill-accent-1,
-.fill-deep-orange.fill-accent-1 {
+.bg-deep-orange .bg-accent-1,
+.bg-deep-orange.bg-accent-1 {
   background-color: #ff9e80;
 }
-.fill-deep-orange .fill-accent-2,
-.fill-deep-orange.fill-accent-2 {
+.bg-deep-orange .bg-accent-2,
+.bg-deep-orange.bg-accent-2 {
   background-color: #ff6e40;
 }
-.fill-deep-orange .fill-accent-3,
-.fill-deep-orange.fill-accent-3 {
+.bg-deep-orange .bg-accent-3,
+.bg-deep-orange.bg-accent-3 {
   background-color: #ff3d00;
 }
-.fill-deep-orange .fill-accent-4,
-.fill-deep-orange.fill-accent-4 {
+.bg-deep-orange .bg-accent-4,
+.bg-deep-orange.bg-accent-4 {
   background-color: #dd2c00;
 }
-.fill-deep-orange .fill-base,
-.fill-deep-orange.fill-base {
+.bg-deep-orange .bg-base,
+.bg-deep-orange.bg-base {
   background-color: #ff5722;
 }
 .text-deep-orange {
@@ -3543,63 +3543,63 @@
 .border-deep-orange.border-base {
   border-color: #ff5722;
 }
-.fill-brown {
+.bg-brown {
   background-color: #795548;
 }
-.fill-brown .fill-minus-1,
-.fill-brown.fill-minus-1 {
+.bg-brown .bg-minus-1,
+.bg-brown.bg-minus-1 {
   background-color: #8d6e63;
 }
-.fill-brown .fill-minus-2,
-.fill-brown.fill-minus-2 {
+.bg-brown .bg-minus-2,
+.bg-brown.bg-minus-2 {
   background-color: #a1887f;
 }
-.fill-brown .fill-minus-3,
-.fill-brown.fill-minus-3 {
+.bg-brown .bg-minus-3,
+.bg-brown.bg-minus-3 {
   background-color: #bcaaa4;
 }
-.fill-brown .fill-minus-4,
-.fill-brown.fill-minus-4 {
+.bg-brown .bg-minus-4,
+.bg-brown.bg-minus-4 {
   background-color: #d7ccc8;
 }
-.fill-brown .fill-minus-5,
-.fill-brown.fill-minus-5 {
+.bg-brown .bg-minus-5,
+.bg-brown.bg-minus-5 {
   background-color: #efebe9;
 }
-.fill-brown .fill-plus-1,
-.fill-brown.fill-plus-1 {
+.bg-brown .bg-plus-1,
+.bg-brown.bg-plus-1 {
   background-color: #6d4c41;
 }
-.fill-brown .fill-plus-2,
-.fill-brown.fill-plus-2 {
+.bg-brown .bg-plus-2,
+.bg-brown.bg-plus-2 {
   background-color: #5d4037;
 }
-.fill-brown .fill-plus-3,
-.fill-brown.fill-plus-3 {
+.bg-brown .bg-plus-3,
+.bg-brown.bg-plus-3 {
   background-color: #4e342e;
 }
-.fill-brown .fill-plus-4,
-.fill-brown.fill-plus-4 {
+.bg-brown .bg-plus-4,
+.bg-brown.bg-plus-4 {
   background-color: #3e2723;
 }
-.fill-brown .fill-accent-1,
-.fill-brown.fill-accent-1 {
+.bg-brown .bg-accent-1,
+.bg-brown.bg-accent-1 {
   background-color: #d7ccc8;
 }
-.fill-brown .fill-accent-2,
-.fill-brown.fill-accent-2 {
+.bg-brown .bg-accent-2,
+.bg-brown.bg-accent-2 {
   background-color: #bcaaa4;
 }
-.fill-brown .fill-accent-3,
-.fill-brown.fill-accent-3 {
+.bg-brown .bg-accent-3,
+.bg-brown.bg-accent-3 {
   background-color: #a1887f;
 }
-.fill-brown .fill-accent-4,
-.fill-brown.fill-accent-4 {
+.bg-brown .bg-accent-4,
+.bg-brown.bg-accent-4 {
   background-color: #8d6e63;
 }
-.fill-brown .fill-base,
-.fill-brown.fill-base {
+.bg-brown .bg-base,
+.bg-brown.bg-base {
   background-color: #795548;
 }
 .text-brown {
@@ -3779,63 +3779,63 @@
 .border-brown.border-base {
   border-color: #795548;
 }
-.fill-blue {
+.bg-blue {
   background-color: #5677fc;
 }
-.fill-blue .fill-minus-1,
-.fill-blue.fill-minus-1 {
+.bg-blue .bg-minus-1,
+.bg-blue.bg-minus-1 {
   background-color: #738ffe;
 }
-.fill-blue .fill-minus-2,
-.fill-blue.fill-minus-2 {
+.bg-blue .bg-minus-2,
+.bg-blue.bg-minus-2 {
   background-color: #91a7ff;
 }
-.fill-blue .fill-minus-3,
-.fill-blue.fill-minus-3 {
+.bg-blue .bg-minus-3,
+.bg-blue.bg-minus-3 {
   background-color: #afbfff;
 }
-.fill-blue .fill-minus-4,
-.fill-blue.fill-minus-4 {
+.bg-blue .bg-minus-4,
+.bg-blue.bg-minus-4 {
   background-color: #d0d9ff;
 }
-.fill-blue .fill-minus-5,
-.fill-blue.fill-minus-5 {
+.bg-blue .bg-minus-5,
+.bg-blue.bg-minus-5 {
   background-color: #e7e9fd;
 }
-.fill-blue .fill-plus-1,
-.fill-blue.fill-plus-1 {
+.bg-blue .bg-plus-1,
+.bg-blue.bg-plus-1 {
   background-color: #4e6cef;
 }
-.fill-blue .fill-plus-2,
-.fill-blue.fill-plus-2 {
+.bg-blue .bg-plus-2,
+.bg-blue.bg-plus-2 {
   background-color: #455ede;
 }
-.fill-blue .fill-plus-3,
-.fill-blue.fill-plus-3 {
+.bg-blue .bg-plus-3,
+.bg-blue.bg-plus-3 {
   background-color: #3b50ce;
 }
-.fill-blue .fill-plus-4,
-.fill-blue.fill-plus-4 {
+.bg-blue .bg-plus-4,
+.bg-blue.bg-plus-4 {
   background-color: #2a36b1;
 }
-.fill-blue .fill-accent-1,
-.fill-blue.fill-accent-1 {
+.bg-blue .bg-accent-1,
+.bg-blue.bg-accent-1 {
   background-color: #a6baff;
 }
-.fill-blue .fill-accent-2,
-.fill-blue.fill-accent-2 {
+.bg-blue .bg-accent-2,
+.bg-blue.bg-accent-2 {
   background-color: #6889ff;
 }
-.fill-blue .fill-accent-3,
-.fill-blue.fill-accent-3 {
+.bg-blue .bg-accent-3,
+.bg-blue.bg-accent-3 {
   background-color: #4d73ff;
 }
-.fill-blue .fill-accent-4,
-.fill-blue.fill-accent-4 {
+.bg-blue .bg-accent-4,
+.bg-blue.bg-accent-4 {
   background-color: #4d69ff;
 }
-.fill-blue .fill-base,
-.fill-blue.fill-base {
+.bg-blue .bg-base,
+.bg-blue.bg-base {
   background-color: #5677fc;
 }
 .text-blue {
@@ -4015,63 +4015,63 @@
 .border-blue.border-base {
   border-color: #5677fc;
 }
-.fill-blue-grey {
+.bg-blue-grey {
   background-color: #607d8b;
 }
-.fill-blue-grey .fill-minus-1,
-.fill-blue-grey.fill-minus-1 {
+.bg-blue-grey .bg-minus-1,
+.bg-blue-grey.bg-minus-1 {
   background-color: #78909c;
 }
-.fill-blue-grey .fill-minus-2,
-.fill-blue-grey.fill-minus-2 {
+.bg-blue-grey .bg-minus-2,
+.bg-blue-grey.bg-minus-2 {
   background-color: #90a4ae;
 }
-.fill-blue-grey .fill-minus-3,
-.fill-blue-grey.fill-minus-3 {
+.bg-blue-grey .bg-minus-3,
+.bg-blue-grey.bg-minus-3 {
   background-color: #b0bec5;
 }
-.fill-blue-grey .fill-minus-4,
-.fill-blue-grey.fill-minus-4 {
+.bg-blue-grey .bg-minus-4,
+.bg-blue-grey.bg-minus-4 {
   background-color: #cfd8dc;
 }
-.fill-blue-grey .fill-minus-5,
-.fill-blue-grey.fill-minus-5 {
+.bg-blue-grey .bg-minus-5,
+.bg-blue-grey.bg-minus-5 {
   background-color: #eceff1;
 }
-.fill-blue-grey .fill-plus-1,
-.fill-blue-grey.fill-plus-1 {
+.bg-blue-grey .bg-plus-1,
+.bg-blue-grey.bg-plus-1 {
   background-color: #546e7a;
 }
-.fill-blue-grey .fill-plus-2,
-.fill-blue-grey.fill-plus-2 {
+.bg-blue-grey .bg-plus-2,
+.bg-blue-grey.bg-plus-2 {
   background-color: #455a64;
 }
-.fill-blue-grey .fill-plus-3,
-.fill-blue-grey.fill-plus-3 {
+.bg-blue-grey .bg-plus-3,
+.bg-blue-grey.bg-plus-3 {
   background-color: #37474f;
 }
-.fill-blue-grey .fill-plus-4,
-.fill-blue-grey.fill-plus-4 {
+.bg-blue-grey .bg-plus-4,
+.bg-blue-grey.bg-plus-4 {
   background-color: #263238;
 }
-.fill-blue-grey .fill-accent-1,
-.fill-blue-grey.fill-accent-1 {
+.bg-blue-grey .bg-accent-1,
+.bg-blue-grey.bg-accent-1 {
   background-color: #cfd8dc;
 }
-.fill-blue-grey .fill-accent-2,
-.fill-blue-grey.fill-accent-2 {
+.bg-blue-grey .bg-accent-2,
+.bg-blue-grey.bg-accent-2 {
   background-color: #b0bec5;
 }
-.fill-blue-grey .fill-accent-3,
-.fill-blue-grey.fill-accent-3 {
+.bg-blue-grey .bg-accent-3,
+.bg-blue-grey.bg-accent-3 {
   background-color: #90a4ae;
 }
-.fill-blue-grey .fill-accent-4,
-.fill-blue-grey.fill-accent-4 {
+.bg-blue-grey .bg-accent-4,
+.bg-blue-grey.bg-accent-4 {
   background-color: #78909c;
 }
-.fill-blue-grey .fill-base,
-.fill-blue-grey.fill-base {
+.bg-blue-grey .bg-base,
+.bg-blue-grey.bg-base {
   background-color: #607d8b;
 }
 .text-blue-grey {
@@ -4251,63 +4251,63 @@
 .border-blue-grey.border-base {
   border-color: #607d8b;
 }
-.fill-grey {
+.bg-grey {
   background-color: #9e9e9e;
 }
-.fill-grey .fill-minus-1,
-.fill-grey.fill-minus-1 {
+.bg-grey .bg-minus-1,
+.bg-grey.bg-minus-1 {
   background-color: #bdbdbd;
 }
-.fill-grey .fill-minus-2,
-.fill-grey.fill-minus-2 {
+.bg-grey .bg-minus-2,
+.bg-grey.bg-minus-2 {
   background-color: #e0e0e0;
 }
-.fill-grey .fill-minus-3,
-.fill-grey.fill-minus-3 {
+.bg-grey .bg-minus-3,
+.bg-grey.bg-minus-3 {
   background-color: #eee;
 }
-.fill-grey .fill-minus-4,
-.fill-grey.fill-minus-4 {
+.bg-grey .bg-minus-4,
+.bg-grey.bg-minus-4 {
   background-color: #f5f5f5;
 }
-.fill-grey .fill-minus-5,
-.fill-grey.fill-minus-5 {
+.bg-grey .bg-minus-5,
+.bg-grey.bg-minus-5 {
   background-color: #fafafa;
 }
-.fill-grey .fill-plus-1,
-.fill-grey.fill-plus-1 {
+.bg-grey .bg-plus-1,
+.bg-grey.bg-plus-1 {
   background-color: #757575;
 }
-.fill-grey .fill-plus-2,
-.fill-grey.fill-plus-2 {
+.bg-grey .bg-plus-2,
+.bg-grey.bg-plus-2 {
   background-color: #616161;
 }
-.fill-grey .fill-plus-3,
-.fill-grey.fill-plus-3 {
+.bg-grey .bg-plus-3,
+.bg-grey.bg-plus-3 {
   background-color: #424242;
 }
-.fill-grey .fill-plus-4,
-.fill-grey.fill-plus-4 {
+.bg-grey .bg-plus-4,
+.bg-grey.bg-plus-4 {
   background-color: #212121;
 }
-.fill-grey .fill-accent-1,
-.fill-grey.fill-accent-1 {
+.bg-grey .bg-accent-1,
+.bg-grey.bg-accent-1 {
   background-color: #f5f5f5;
 }
-.fill-grey .fill-accent-2,
-.fill-grey.fill-accent-2 {
+.bg-grey .bg-accent-2,
+.bg-grey.bg-accent-2 {
   background-color: #eee;
 }
-.fill-grey .fill-accent-3,
-.fill-grey.fill-accent-3 {
+.bg-grey .bg-accent-3,
+.bg-grey.bg-accent-3 {
   background-color: #e0e0e0;
 }
-.fill-grey .fill-accent-4,
-.fill-grey.fill-accent-4 {
+.bg-grey .bg-accent-4,
+.bg-grey.bg-accent-4 {
   background-color: #bdbdbd;
 }
-.fill-grey .fill-base,
-.fill-grey.fill-base {
+.bg-grey .bg-base,
+.bg-grey.bg-base {
   background-color: #9e9e9e;
 }
 .text-grey {
@@ -4487,11 +4487,11 @@
 .border-grey.border-base {
   border-color: #9e9e9e;
 }
-.fill-black {
+.bg-black {
   background-color: #000;
 }
-.fill-black .fill-base,
-.fill-black.fill-base {
+.bg-black .bg-base,
+.bg-black.bg-base {
   background-color: #000;
 }
 .text-black {
@@ -4515,11 +4515,11 @@
 .border-black.border-base {
   border-color: #000;
 }
-.fill-white {
+.bg-white {
   background-color: #fff;
 }
-.fill-white .fill-base,
-.fill-white.fill-base {
+.bg-white .bg-base,
+.bg-white.bg-base {
   background-color: #fff;
 }
 .text-white {
@@ -4762,7 +4762,7 @@ hr {
   height: 0;
 }
 pre {
-  overflow: auto;
+  overflow: normal;
 }
 code,
 kbd,
@@ -6419,16 +6419,16 @@ hr {
   body .desktop-nav {
     display: none;
   }
-@media (min-width: 768px) and (max-width: 991px) {
-    body:before {
-      content: 'tablet vertical';
-    }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
-    body:before {
-      content: "tablet horizontal";
-    }
+@media (min-width: 768px) and (max-width: 1199px) and (min-width: 768px) and (max-width: 991px) {
+  body:before {
+    content: 'tablet vertical';
+  }
 }
+@media (min-width: 768px) and (max-width: 1199px) and (min-width: 992px) and (max-width: 1199px) {
+  body:before {
+    content: "tablet horizontal";
+  }
 }
 @media (max-width: 767px) {
   body {
@@ -6443,14 +6443,14 @@ hr {
     *display: inline;
     *zoom: 1;
   }
-@media (max-width: 481px) {
-    body:before {
-      content: 'smartphone vertical';
-    }
 }
-@media (min-width: 481px) and (max-width: 767px) {
-    body:before {
-      content: 'smartphone horizontal';
-    }
+@media (max-width: 767px) and (max-width: 481px) {
+  body:before {
+    content: 'smartphone vertical';
+  }
 }
+@media (max-width: 767px) and (min-width: 481px) and (max-width: 767px) {
+  body:before {
+    content: 'smartphone horizontal';
+  }
 }

@@ -1,5 +1,5 @@
 disabled()
-  fill-grey(200)
+  bg-grey(200)
   text-grey(400)
   depth(0)
   &:hover
@@ -20,7 +20,7 @@ button()
   depth(1)
   &:not(.waves-effect)
     &:hover
-      fill-cyan(700)
+      bg-cyan(700)
       depth(1)
     &:active
       depth(2)
@@ -42,14 +42,14 @@ input[type=submit]
   &:disabled
     disabled()
     &:hover
-      fill-grey(200)
+      bg-grey(200)
 .button
   button()
   &.flat
     background:none
     depth(0)
     &:hover
-      fill-cyan(300)
+      bg-cyan(300)
       depth(0)
       text-white()
     &:active
