@@ -5357,7 +5357,9 @@ header,
     display: none;
   }
 }
-input[type=text] {
+input[type=text],
+input[type=password],
+input[type=email] {
   width: 100%;
   background: none;
   border: 0;
@@ -5368,28 +5370,42 @@ input[type=text] {
   border-radius: 0;
   -webkit-font-smoothing: antialiased;
 }
-input[type=text]:focus {
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus {
   outline: 0;
   border-width: 2px;
   padding-bottom: 8px;
   border-color: #00bcd4;
 }
-input[type=text]:disabled {
+input[type=text]:disabled,
+input[type=password]:disabled,
+input[type=email]:disabled {
   border-style: dotted;
 }
-input[type=text]:disabled:hover {
+input[type=text]:disabled:hover,
+input[type=password]:disabled:hover,
+input[type=email]:disabled:hover {
   cursor: not-allowed;
 }
-input[type=text]:disabled::-webkit-input-placeholder {
+input[type=text]:disabled::-webkit-input-placeholder,
+input[type=password]:disabled::-webkit-input-placeholder,
+input[type=email]:disabled::-webkit-input-placeholder {
   opacity: 0.5;
 }
-input[type=text]:disabled:-moz-placeholder {
+input[type=text]:disabled:-moz-placeholder,
+input[type=password]:disabled:-moz-placeholder,
+input[type=email]:disabled:-moz-placeholder {
   opacity: 0.5;
 }
-input[type=text]:disabled::-moz-placeholder {
+input[type=text]:disabled::-moz-placeholder,
+input[type=password]:disabled::-moz-placeholder,
+input[type=email]:disabled::-moz-placeholder {
   opacity: 0.5;
 }
-input[type=text]:disabled:-ms-input-placeholder {
+input[type=text]:disabled:-ms-input-placeholder,
+input[type=password]:disabled:-ms-input-placeholder,
+input[type=email]:disabled:-ms-input-placeholder {
   opacity: 0.5;
 }
 .input {
