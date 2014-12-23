@@ -19,7 +19,8 @@ $('.icon.icon-list2').on 'click', ->
 rows = {
   'mod-row' : [
     'card',
-    'tile'
+    'tile',
+    'flip'
   ],
   'mod-lists .list-item' : [
     'pull-left',
@@ -101,6 +102,31 @@ slide = (obj, nextslide, nav) ->
   else
     return nextslide+1
 
+initFlip = () ->
+  flips = $('.flip')
+
+  flips.each ->
+    flip = $(this)
+
+    events = {}
+
+    if flip.hasClass 'onclick'
+      events.click = ->
+        if !flip.hasClass 'toggle'
+          flip.addClass 'toggle'
+        else
+          flip.removeClass 'toggle'
+    else
+      events.mouseenter = ->
+        flip.addClass 'toggle'
+      events.mouseleave = ->
+        flip.removeClass 'toggle'
+
+    flip.on events
+      
+    return
+  return
+
 initSlider = () ->
   sliders = $('.slider')
   interval = 8000 #milliseconds
@@ -148,10 +174,11 @@ init = () ->
   setTimeout ->
     makeSquare(elements)
     alignChildren(rows)
-  , 100
+  , 250
   checkResize()
   activateLists()
   initSlider()
   initWaves()
+  initFlip()
 
 init()

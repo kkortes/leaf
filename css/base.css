@@ -5543,6 +5543,7 @@ input[type=submit]:not(.waves-effect).disabled:hover {
 input[type=submit]:not(.waves-effect).disabled:hover {
   background-color: none;
   color: #bdbdbd;
+  background-color: #eee;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -5577,6 +5578,7 @@ input[type=submit].disabled:hover,
 input[type=submit]:disabled:hover {
   background-color: none;
   color: #bdbdbd;
+  background-color: #eee;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -5590,10 +5592,6 @@ input[type=submit]:disabled:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-}
-input[type=submit].disabled:hover,
-input[type=submit]:disabled:hover {
-  background-color: #eee;
 }
 .button {
   padding: 10px 20px;
@@ -5637,6 +5635,7 @@ input[type=submit]:disabled:hover {
 .button:not(.waves-effect).disabled:hover {
   background-color: none;
   color: #bdbdbd;
+  background-color: #eee;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -5683,6 +5682,7 @@ input[type=submit]:disabled:hover {
 .button.flat.disabled:hover {
   background-color: none;
   color: #bdbdbd;
+  background-color: #eee;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -6299,6 +6299,75 @@ a.tile {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+}
+.flip {
+  -webkit-perspective: argument;
+  -moz-perspective: argument;
+  -ms-perspective: argument;
+  perspective: argument;
+  -webkit-transform: perspective: argument;;
+  -moz-transform: perspective: argument;;
+  -o-transform: perspective: argument;;
+  -ms-transform: perspective: argument;;
+  transform: perspective: argument;;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-styke: preserve-3d;
+  display: block;
+}
+.flip.toggle .front {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.flip.toggle .back {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+.flip .front,
+.flip .back {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-styke: preserve-3d;
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.flip .front {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  z-index: 2;
+}
+.flip .back {
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
 }
 .mod-row .mod {
   padding: 2.5px;

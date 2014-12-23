@@ -1,0 +1,30 @@
+.flip
+	perspective: 1000
+	transform: perspective(1000px)
+	transform-style: preserve-3d
+	display: block
+	&.toggle
+		.front
+			transform: rotateY(180deg)
+	&.toggle
+		.back
+			transform: rotateY(0deg)
+	// &:before
+	// 	transition: .6s
+	// 	transform-style: preserve-3d
+	// 	position: relative
+	.front,
+	.back
+		transition: .6s
+		backface-visibility: hidden
+		transform-style: preserve-3d
+		transform: rotateY(0deg)
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+	.front
+		transform: rotateY(0deg)
+		z-index: 2
+	.back
+		transform: rotateY(-180deg)
