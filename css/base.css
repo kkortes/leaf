@@ -6086,6 +6086,25 @@ a.list-item:hover:hover {
 .slider .stripe .slide img {
   width: 100%;
 }
+.slider .left,
+.slider .right {
+  top: 50%;
+  margin-top: -40px;
+  font-size: 800rem;
+  font-size: 80px;
+  line-height: 800rem;
+  line-height: 80px;
+  color: #fff;
+}
+.slider .left:hover,
+.slider .right:hover {
+  color: #fff;
+}
+.slider .left:hover,
+.slider .right:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
 .slider .slider-nav {
   position: absolute;
   bottom: 20px;
@@ -6505,14 +6524,14 @@ hr {
     display: none;
   }
 }
-@media (min-width: 768px) and (max-width: 1199px) and (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1199px) and (orientation: portrait) {
   body:before {
     content: 'tablet vertical';
   }
 }
-@media (min-width: 768px) and (max-width: 1199px) and (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1199px) and (orientation: landscape) {
   body:before {
-    content: "tablet horizontal";
+    content: 'tablet horizontal';
   }
 }
 @media (max-width: 767px) {
@@ -6529,12 +6548,12 @@ hr {
     *zoom: 1;
   }
 }
-@media (max-width: 767px) and (max-width: 481px) {
+@media (max-width: 767px) and (orientation: portrait) {
   body:before {
     content: 'smartphone vertical';
   }
 }
-@media (max-width: 767px) and (min-width: 481px) and (max-width: 767px) {
+@media (max-width: 767px) and (orientation: landscape) {
   body:before {
     content: 'smartphone horizontal';
   }

@@ -7,15 +7,15 @@
       display:none
   
   // Tablet, vertical
-  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max)
+  @media (orientation: portrait)
     body
       // Your code here
       &:before
-        content:'tablet vertical'
+        content: 'tablet vertical'
 
   // Tablet, horizontal
-  @media (min-width: $screen-md-min) and (max-width: $screen-md-max)
+  @media (orientation: landscape)
     body
       // Your code here
       &:before
-        content:"tablet horizontal"
+        content: 'tablet horizontal'

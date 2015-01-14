@@ -123,12 +123,12 @@ destroy-crow()
       destroy-crow()
   
   // Tablet, vertical
-  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max)
+  @media (orientation: portrait)
     body
       // Your code here
 
   // Tablet, horizontal
-  @media (min-width: $screen-md-min) and (max-width: $screen-md-max)
+  @media (orientation: landscape)
     body
       // Your code here
 
@@ -145,12 +145,12 @@ destroy-crow()
           destroy-crow()
 
   // Smartphone, vertical
-  @media (max-width: $screen-xs-min)
+  @media (orientation: portrait)
     body
       // Your code here
 
   // smartphone, horizontal
-  @media (min-width: $screen-xs-min) and (max-width: $screen-xs-max)
+  @media (orientation: landscape)
     body
       // Your code here
 
