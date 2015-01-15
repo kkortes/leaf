@@ -4586,8 +4586,8 @@
   display: inline-block;
   height: 100%;
   vertical-align: middle;
-  margin-right: -0.125em;
-  margin-left: -0.125em;
+  margin-right: -2px;
+  margin-left: -2px;
 }
 .center *:first-child {
   vertical-align: middle;
@@ -5792,8 +5792,8 @@ a.card {
   display: inline-block;
   height: 100%;
   vertical-align: middle;
-  margin-right: -0.125em;
-  margin-left: -0.125em;
+  margin-right: -2px;
+  margin-left: -2px;
 }
 .circle *:first-child {
   vertical-align: middle;
@@ -5993,8 +5993,8 @@ strong.list-item .text:before {
   display: inline-block;
   height: 100%;
   vertical-align: middle;
-  margin-right: -0.125em;
-  margin-left: -0.125em;
+  margin-right: -2px;
+  margin-left: -2px;
 }
 a.list-item .text *:first-child,
 span.list-item .text *:first-child,
@@ -6030,8 +6030,8 @@ strong.list-item .clearfix .pull-right:before {
   display: inline-block;
   height: 100%;
   vertical-align: middle;
-  margin-right: -0.125em;
-  margin-left: -0.125em;
+  margin-right: -2px;
+  margin-left: -2px;
 }
 a.list-item .clearfix .pull-left *:first-child,
 span.list-item .clearfix .pull-left *:first-child,
@@ -6446,6 +6446,7 @@ a:hover {
   position: relative;
 }
 hr {
+  border: 0;
   border-bottom: 1px solid #cfd8dc;
 }
 @media (min-width: 1200px) {
