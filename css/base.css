@@ -5375,6 +5375,7 @@ input[type=email] {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
+  -webkit-font-smoothing: antialiased;
 }
 input[type=text]:focus,
 input[type=password]:focus,
@@ -5464,6 +5465,7 @@ textarea {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
+  -webkit-font-smoothing: antialiased;
 }
 textarea:focus {
   outline: 0;
@@ -5512,6 +5514,7 @@ input[type=submit] {
   -webkit-appearance: none;
   border: 0;
   font-style: normal;
+  -webkit-font-smoothing: antialiased;
   padding: 10px 20px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
