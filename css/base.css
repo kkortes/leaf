@@ -4874,7 +4874,7 @@ header,
 .top,
 #wrapper {
   display: table-row;
-  height: 1px;
+  min-height: 1px;
 }
 #wrapper {
   height: 100%;
@@ -5323,11 +5323,6 @@ header,
 .container > .crow {
   margin: 0 -15px;
   padding: 0 !important;
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 970px;
-  }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   body .container {
@@ -6441,6 +6436,30 @@ a:hover {
 hr {
   border: 0;
   border-bottom: 1px solid #cfd8dc;
+}
+h1,
+h2 {
+  margin: 0 0 20px 0;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-size: 16px;
+  line-height: 16px;
+  line-height: 1.6rem;
+  font-size: 1.6rem;
+  margin: 0 0 10px 0;
+}
+p,
+ul {
+  font-size: 14px;
+  line-height: 14px;
+  line-height: 1.4rem;
+  font-size: 1.4rem;
+  line-height: 22px;
+  line-height: 2.2rem;
+  margin: 0 0 20px 0;
 }
 @media (min-width: 1200px) {
   body:before {
