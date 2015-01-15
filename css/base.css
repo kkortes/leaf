@@ -4635,6 +4635,11 @@ html {
 body {
   margin: 0;
 }
+body:before {
+  position: fixed;
+  visibility: hidden;
+  *display: none;
+}
 img {
   border: 0;
   max-width: 100%;
@@ -4724,11 +4729,6 @@ strong {
 }
 dfn {
   font-style: italic;
-}
-h1 {
-  font-size: 2em;
-  line-height: 2em;
-  margin: 0.67em 0;
 }
 mark {
   background: #ff0;
@@ -6416,9 +6416,6 @@ a.tile {
   -ms-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
 }
-.mod-row .mod {
-  padding: 2.5px;
-}
 body {
   font-family: 'Roboto', arial;
   font-size: 14px;
@@ -6430,10 +6427,6 @@ body {
   color: #424242;
   background-color: #fafafa;
 }
-.show-on-mobile,
-.show-on-tablet {
-  display: none;
-}
 a {
   color: #00bcd4;
   text-decoration: none;
@@ -6442,9 +6435,6 @@ a:hover {
   color: #4dd0e1;
   text-decoration: underline;
 }
-#wrapper {
-  position: relative;
-}
 hr {
   border: 0;
   border-bottom: 1px solid #cfd8dc;
@@ -6452,9 +6442,6 @@ hr {
 @media (min-width: 1200px) {
   body:before {
     content: 'desktop';
-    position: fixed;
-    visibility: hidden;
-    *display: none;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) and (orientation: portrait) {
