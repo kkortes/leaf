@@ -21,86 +21,91 @@ $gutter = 15
 
 auto-widths(nums)
   for i in 1..nums
-    > div:first-child:nth-last-child({i}),
-    > div:first-child:nth-last-child({i}) ~ div
+    > *:first-child:nth-last-child({i}),
+    > *:first-child:nth-last-child({i}) ~ *
       $percent = 100/i
       width: $percent+"%"
   
 locked-widths(nums)
   for i in 1..nums
-    .w-{i}
+    define('w-' + i, @() {
       $percent = i
-      width: $percent+"%"
+      width: $percent + '%'
+    })
+
+    .w-{i}
+      w-{i}()
 
 unit-widths(nums)
   for i in 1..nums
-    .ws-{i}
+    define('ws-' + i, @() {
       $percent = 100*i/$unit-widths-iterations
       width: $percent+"%"
+    })
 
-.crow
-  text-align:center
-  height:100%
-  font-size:0
-  padding:0 $gutter*1px
-  locked-widths($locked-widths-iterations)
-  unit-widths($unit-widths-iterations)
-  .crow
-    text-align:center;
-    font-size:0;
-    padding:0;
-  &.fly
-    auto-widths($auto-widths-iterations)
-  &.no-gutter
-    padding:0
-    > div
-      padding:0
-  &.up
-    > div
-      vertical-align:top
-  &.down
-    > div
-      vertical-align:bottom
-  > div
-    vertical-align:middle
-    font-size:$font-size
-    line-height:$line-height
-    display:inline-block
-    padding:0 ($gutter * 1px)
-    &:not(.text-center)
-      text-align:left
-    &.up
-      vertical-align:top
-    &.down
-      vertical-align:bottom
+    .ws-{i}
+      ws-{i}()
+
+crow()
+  font-size: 0
+  text-align: center
   &:before
     content:''
-    display:inline-block
-    height:100%
-    vertical-align:middle
+    display: inline-block
+    height: 100%
+    vertical-align: middle
+  > *
+    vertical-align: middle
+    font-size: $font-size
+    display: inline-block
+    text-align: left
 
-.container
-  width:960px
-  margin:0 auto
-  padding:0 ($gutter * 1px)
+.crow
+  padding: 0 ($gutter * 1px)
+  crow()
+  locked-widths($locked-widths-iterations)
+  unit-widths($unit-widths-iterations)
+  &.fly
+    auto-widths($auto-widths-iterations)
+  > *
+    padding: 0 ($gutter * 1px)
+    &.up
+      vertical-align: top
+    &.down
+      vertical-align: bottom
+  &.up
+    > *
+      vertical-align: top
+  &.down
+    > *
+      vertical-align: bottom
+  &.no-gutter
+    padding: 0
+    > *
+      padding: 0
+
+.nest
+  width: 960px
+  margin: 0 auto
+  padding: 0 ($gutter * 1px)
   > .crow
-    margin:0 (- $gutter * 1px)
-    padding:0 !important
+    margin: 0 (- $gutter * 1px)
+    padding: 0
 destroy-all()
   .crow
-    //height:auto !important
-    > div
-      display:block
-      width:auto !important
+    > *
+      display: block
+      width: auto
     &:before 
       content: ''
       display: none
 destroy-crow()
-  &.crow
-    height:auto
-    > div
-      display:block
-      width:100%
+  &.crow,
+  &.crow.fly
+    height: auto
+    > *
+      display: block
+      width: 100%
     &:before
       content: ''
       display: none
@@ -113,10 +118,10 @@ destroy-crow()
 // Tablet, both orientations
 @media (min-width: $screen-sm-min) and (max-width: $screen-md-max)
   body
-    .container
+    .nest
       width:750px
 
-    .container .crow > .crow
+    .nest .crow > .crow
       destroy-crow()
   
   // Tablet, vertical
@@ -133,13 +138,11 @@ destroy-crow()
 // Smartphone, both orientations
 @media (max-width: $screen-xs-max)
   body
-    .container
-      width:auto
+    .nest
+      width: auto
     .crow 
-      > .crow,
-      &.crow
-        &:not(.keep-alive)
-          destroy-crow()
+      &:not(.keep-alive)
+        destroy-crow()
 
   // Smartphone, vertical
   @media (orientation: portrait)

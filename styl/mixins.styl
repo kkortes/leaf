@@ -95,20 +95,19 @@ large()
   font-size:120%
 
 center(textcenter = true)
+  font-size: 0
   if textcenter
     text-align: center
   &:before
-    content: ''
-    display: inline-block
+    content:''
+    inline()
     height: 100%
     vertical-align: middle
-    margin-right: -2px
-    margin-left: -2px
-  *:first-child
+  > *
     vertical-align: middle
+    font-size: $font-size
+    line-height: $line-height
     inline()
-    *
-      vertical-align: baseline
 
 depth(strength = 0)
   if strength == 5

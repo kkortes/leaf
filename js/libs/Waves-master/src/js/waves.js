@@ -121,7 +121,7 @@
             
             var el = this;
 
-            var width = el.clientWidth * 1.4;
+            //var width = el.clientWidth * 1.4;
             
             // Get first ripple
             var ripple = null;
