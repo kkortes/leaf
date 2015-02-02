@@ -3,18 +3,6 @@
 getPlatform = () ->
   return window.getComputedStyle(document.body,':before').getPropertyValue('content').replace(/'/g,'').replace(/"/g,'')
 
-# temporary click function for showcase web
-$('.icon.icon-list2').on 'click', ->
-  if getPlatform() is 'smartphone vertical' || getPlatform() is 'smartphone horizontal'
-    if $('.top-nav').hasClass 'relative'
-      $('.top-nav span').remove()
-      $('.top-nav').removeClass 'relative'
-      $('.top-nav').removeClass 'desktop-nav'
-    else
-      $('.top-nav').addClass 'relative'
-      $('.top-nav').addClass 'desktop-nav'
-  return
-
 # properties for alignChildren() function. You can add more targets here. Key = row, values = children to keep track of and resize
 rows = {
   'mod-row' : [
@@ -88,20 +76,6 @@ activateLists = () ->
         children.slideDown 'fast'
       return false
 
-slide = (obj, nextslide, nav) ->
-  marginleft = nextslide*100
-  obj.children('.stripe').animate {
-    'marginLeft' : '-'+marginleft+'%'
-  }
-
-  nav.find('a').removeClass 'active'
-  nav.find('a:eq('+nextslide+')').addClass 'active'
-
-  if (nextslide+1) is obj.find('.slide').length
-    return 0
-  else
-    return nextslide+1
-
 initFlip = () ->
   flips = $('.flip')
 
@@ -127,47 +101,89 @@ initFlip = () ->
     return
   return
 
+slide = (obj, nextslide) ->
+  marginleft = nextslide*100
+  obj.self.children('.stripe').animate {
+    'marginLeft' : '-'+marginleft+'%'
+  }
+
+  obj.nav.find('a').removeClass 'active'
+  obj.nav.find('a:eq('+nextslide+')').addClass 'active'
+
+  obj.self.data 'currentslide', nextslide
+
+  if (nextslide+1) is obj.self.find('.slide').length
+    obj.prevbutton.removeClass 'inactive'
+    obj.nextbutton.addClass 'inactive'
+    return 0
+  else
+    obj.nextbutton.removeClass 'inactive'
+    if nextslide is 0
+      obj.prevbutton.addClass 'inactive'
+    else
+      obj.prevbutton.removeClass 'inactive'
+    return nextslide
+
+slideTo = (direction, slider, interval = false) ->
+  if !interval
+    clearInterval slider.self.data('interval')
+  currentslide = slider.self.data 'currentslide'
+  if direction is 'next'
+    currentslide++
+    if currentslide >= slider.self.find('.stripe.crow .slide').length
+      currentslide = 0
+    slide slider, currentslide
+  else if direction is 'prev'
+    currentslide--
+    if currentslide < 0
+      currentslide = slider.self.find('.stripe.crow .slide').length-1
+    slide slider, currentslide
+
 initSlider = () ->
   sliders = $('.slider')
-  interval = 8000 #milliseconds
   sliders.each ->
-    slider = $(this)
-    nav = slider.find('.slider-nav')
+    slider =
+      self : $(this)
+      nav : $(this).find('.slider-nav')
+      nextbutton : $(this).find('.next')
+      prevbutton : $(this).find('.prev')
+      interval : 0
+    
+    if slider.self.find('.stripe.crow .slide').length > 1
+      if typeof slider.self.data('currentslide') is 'undefined'
+        slider.self.data 'currentslide', 0
 
-    if slider.find('.stripe.crow .slide').length > 1
-      if typeof slider.data('nextslide') is 'undefined'
-        nextslide = 1
-        slider.data 'nextslide', nextslide
-      slider.data 'interval', setInterval ->
-        nextslide = slider.data 'nextslide'
-        
-        slider.data 'nextslide', slide(slider, nextslide, nav)
-      , interval
+      if slider.interval
+        slider.self.data 'interval', setInterval ->
+          slideTo 'next', slider, true
+        , slider.interval
 
-      hammertime = new Hammer slider[0]
+      hammertime = new Hammer slider.self[0]
       hammertime.on 'swipeleft', (ev) ->
-        clearInterval(slider.data('interval'))
-        nextslide = slider.data 'nextslide'
-        slider.data 'nextslide', slide(slider, nextslide, nav)
-        console.log nextslide
-      hammertime.on 'swiperight', (ev) ->
-        clearInterval(slider.data('interval'))
-        nextslide = (slider.data 'nextslide')-1
-        if nextslide < 0
-          nextslide = slider.find('.stripe.crow .slide').length-1
-        slider.data 'nextslide', nextslide
-        
-        slide(slider, nextslide, nav)
+        slideTo 'next', slider
 
-    nav.find('a').on 'click', ->
-      clearInterval(slider.data('interval'))
-      index = nav.find('a').index(this)
-      slide slider, index, nav
+      hammertime.on 'swiperight', (ev) ->
+        slideTo 'prev', slider
+
+    if slider.nextbutton.length
+      slider.nextbutton.on 'click', ->
+        slideTo 'next', slider
+        return false
+
+    if slider.prevbutton.length
+      slider.prevbutton.on 'click', ->
+        slideTo 'prev', slider
+        return false
+
+    slider.nav.find('a').on 'click', ->
+      clearInterval slider.self.data('interval')
+      index = slider.nav.find('a').index(this)
+      slide slider, index
       return false
+    
   return
 
 initWaves = () ->
-  #w = new Waves()
   Waves.displayEffect()
 
 init = () ->

@@ -1,14 +1,16 @@
 .text
-  overflow:hidden
-  position:relative
-.clearfix
-  clearfix()
+  overflow: hidden
+  position: relative
 .pull-left
-  float:left
+  float: left
 .pull-right
-  float:right
+  float: right
+.block
+  display: block
 .inline-block
   inline()
+.clearfix
+  clearfix()
 .text-center
   text-center()
 .text-left
@@ -17,10 +19,38 @@
   text-right()
 .center
   center()
-.block
-  display:block
+.small
+  small()
+.large
+  large()
+.spacer
+  height: 40px
+  &.half
+    height: 20px
+  &.quarter
+    height: 10px
 a
-  word-break:break-word
+  word-break: break-word
+  background: transparent
+  &:active,
+  &:hover
+    outline: 0
+html
+  font-size: 62.5%
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+  font-family: sans-serif // 1
+  -ms-text-size-adjust: 100% // 2
+  -webkit-text-size-adjust: 100% // 2
+  -webkit-font-smoothing: antialiased
+body
+  margin: 0
+  &:before
+    position: fixed
+    visibility: hidden
+    *display: none
+img
+  border: 0
+  max-width: 100%
 ul
   &.minimized
     ul

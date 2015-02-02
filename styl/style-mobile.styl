@@ -1,23 +1,18 @@
 // Smartphone, both orientations
 @media (max-width: $screen-xs-max)
   body
-    overflow:hidden
-    .sharer,
-    .desktop-nav
-      display:none
-    .show-on-mobile
-      inline()
+    // Your code here
 
   // Smartphone, vertical
-  @media (max-width: $screen-xs-min)
+  @media (orientation: portrait)
     body
       // Your code here
       &:before
-        content:'smartphone vertical'
+        content: 'smartphone vertical'
   
   // smartphone, horizontal
-  @media (min-width: $screen-xs-min) and (max-width: $screen-xs-max)
+  @media (orientation: landscape)
     body
       // Your code here
       &:before
-        content:'smartphone horizontal'
+        content: 'smartphone horizontal'

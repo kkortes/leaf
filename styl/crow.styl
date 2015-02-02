@@ -1,5 +1,3 @@
-@import "variables"
-
 $screen-xs-min =      481px;
 $screen-phone =       $screen-xs-min;
 
@@ -131,8 +129,8 @@ destroy-crow()
     .nest
       width:750px
 
-    // .nest .crow > .crow
-    //   destroy-crow()
+    .nest .crow > .crow
+      destroy-crow()
   
   // Tablet, vertical
   @media (orientation: portrait)

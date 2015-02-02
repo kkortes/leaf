@@ -1,49 +1,31 @@
-font-size($sizeValue)
-  $remValue = ($sizeValue / 10)
-  $pxValue = $sizeValue
-  font-size: $pxValue+"px"
-  font-size: $remValue+"rem"
-
-  $remLineHeightValue = ($remValue * 1.5)
-  $pxLineHeightValue = ($pxValue * 1.5)
-
-  line-height: $pxLineHeightValue+"px"
-  line-height: $remLineHeightValue+"rem"
-
-font-size(_size)
-  if typeof(_size) == 'unit'
-    if unit(_size) == 'px'
-        font-size (_size*10)rem
+font-size(_size, forcepx = false)
   font-size _size
   line-height _size
-
-line-height(_size)
   if typeof(_size) == 'unit'
     if unit(_size) == 'px'
-        line-height (_size*10)rem
+        font-size (_size/10)rem
+
+line-height(_size, forcepx = false)
   line-height _size
+  if typeof(_size) == 'unit'
+    if unit(_size) == 'px'
+        line-height (_size/10)rem
 
 clearfix()
   &:before,
   &:after
-    content: " ";
-    display: table;
+    content: " "
+    display: table
   &:after
-    clear:both
-
-smooth-font()
-  -webkit-font-smoothing:antialiased
+    clear: both
 
 base-padding($px = 10px)
-  padding:$px
-
-strong-padding($px = 15px)
-  padding:$px
+  padding: $px
 
 inline()
-  display:inline-block
-  *display:inline // IE7 inline-block hack
-  *zoom:1
+  display: inline-block
+  *display: inline // IE7 inline-block hack
+  *zoom: 1
 
 perspective()
   -webkit-perspective: argument
@@ -77,62 +59,65 @@ transform()
   transform: arguments
 
 transition()
-  -webkit-transition:arguments
-  transition:arguments
+  -webkit-transition: arguments
+  -moz-transition: arguments
+  -o-transition: arguments
+  -ms-transition: arguments
+  transition: arguments
 
 box-shadow()
-  -webkit-box-shadow:arguments
-  -moz-box-shadow:arguments
-  box-shadow:arguments
+  -webkit-box-shadow: arguments
+  -moz-box-shadow: arguments
+  box-shadow: arguments
 
 font-reset()
-  font-size:initial
-  color:initial
+  font-size: initial
+  color: initial
 
 text-center()
-  text-align:center
+  text-align: center
 
 text-left()
-  text-align:left
+  text-align: left
 
 text-right()
-  text-align:right
+  text-align: right
 
 unstyled()
   list-style:none
   margin:0
   padding:0
+  
 small()
-  font-size:80%
+  font-size: 12px
+  line-height: 18px
+  
 large()
   font-size:120%
 
 center(textcenter = true)
+  margin: 0 -2px
   if textcenter
-    text-align:center
+    text-align: center
   &:before
-    content: ''
-    display: inline-block
+    content:''
+    inline()
     height: 100%
     vertical-align: middle
-    margin-right: -0.125em // Adjusts for spacing
-    margin-left: -0.125em
-  *:first-child
+  > *
     vertical-align: middle
     inline()
-    *
-      vertical-align:baseline
 
 depth(strength = 0)
   if strength == 5
-    box-shadow:0px 12px 20px 2px rgba(0,0,0,.30)
+    box-shadow: 0px 12px 20px 2px rgba(0,0,0,.30)
   else if strength == 4
-    box-shadow:0px 9px 17px 2px rgba(0,0,0,.25)
+    box-shadow: 0px 9px 17px 2px rgba(0,0,0,.25)
   else if strength == 3
-    box-shadow:0px 6px 12px 2px rgba(0,0,0,.19)
+    box-shadow: 0px 6px 12px 2px rgba(0,0,0,.19)
   else if strength == 2
-    box-shadow:0px 3px 8px 0px rgba(0,0,0,.16)
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,.16)
   else if strength == 1
-    box-shadow:0px 1px 2px 1px rgba(0,0,0,.12)
+    box-shadow: 0px 1px 2px 1px rgba(0,0,0,.12)
   else
-    box-shadow:none
+    box-shadow: none
