@@ -15,10 +15,9 @@ $screen-sm-max =      ($screen-md-min - 1)
 $screen-md-max =      ($screen-lg-min - 1)
 
 $auto-widths-iterations = 12
-$locked-widths-iterations = 100
+$percent-widths-iterations = 100
 $unit-widths-iterations = 12
 $gutter = 15
-$min-height = 14px
 
 auto-widths(nums)
   for i in 1..nums
@@ -26,35 +25,22 @@ auto-widths(nums)
     > *:first-child:nth-last-child({i}) ~ *
       $percent = 100/i
       width: $percent+"%"
-  
-locked-widths(nums)
-  for i in 1..nums
-    define('w-' + i, @() {
-      $percent = i
-      width: $percent + '%'
-    })
 
+percent-widths(nums)
+  for i in 1..nums
     .w-{i}
-      w-{i}()
+      $percent = i
+      width: $percent+"%"
 
 unit-widths(nums)
   for i in 1..nums
-    define('ws-' + i, @() {
+    .ws-{i}
       $percent = 100*i/$unit-widths-iterations
       width: $percent+"%"
-    })
-
-    .ws-{i}
-      ws-{i}()
 
 crow()
   text-align: center
   font-size: 0
-  line-height: 0
-  .crow
-    font-size: 0
-    line-height: 0
-    padding: 0
   &:before
     content: ''
     display: inline-block
@@ -63,18 +49,19 @@ crow()
   > *
     vertical-align: middle
     display: inline-block
-    font-size: $min-height
-    line-height: 22px
-    &:not(.text-center)
-      text-align: left
+    font-size: medium /* IE */
+    font-size: initial
+    text-align: left
     
 .crow
   padding: 0 ($gutter * 1px)
   crow()
-  locked-widths($locked-widths-iterations)
+  percent-widths($percent-widths-iterations)
   unit-widths($unit-widths-iterations)
   &.fly
     auto-widths($auto-widths-iterations)
+  .crow
+    font-size: 0
   > *
     padding: 0 ($gutter * 1px)
     &.up
@@ -99,6 +86,7 @@ crow()
   > .crow
     margin: 0 (- $gutter * 1px)
     padding: 0
+
 destroy-all()
   .crow
     > *
@@ -129,8 +117,8 @@ destroy-crow()
     .nest
       width:750px
 
-    .nest .crow > .crow
-      destroy-crow()
+    // .nest .crow > .crow
+    //   destroy-crow()
   
   // Tablet, vertical
   @media (orientation: portrait)
@@ -148,9 +136,9 @@ destroy-crow()
   body
     .nest
       width: auto
-    .crow 
-      &:not(.keep-alive)
-        destroy-crow()
+    // .crow 
+    //   &:not(.keep-alive)
+    //     destroy-crow()
 
   // Smartphone, vertical
   @media (orientation: portrait)
