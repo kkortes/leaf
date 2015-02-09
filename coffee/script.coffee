@@ -142,12 +142,13 @@ slideTo = (direction, slider, interval = false) ->
 initSlider = () ->
   sliders = $('.slider')
   sliders.each ->
-    slider =
+    slider = {
       self : $(this)
       nav : $(this).find('.slider-nav')
       nextbutton : $(this).find('.next')
       prevbutton : $(this).find('.prev')
       interval : 0
+    }
     
     if slider.self.find('.stripe.crow .slide').length > 1
       if typeof slider.self.data('currentslide') is 'undefined'
@@ -187,10 +188,10 @@ initWaves = () ->
   Waves.displayEffect()
 
 init = () ->
-  setTimeout ->
+  imagesLoaded($('body')[0]).on 'always', ->
     makeSquare(elements)
     alignChildren(rows)
-  , 250
+  
   checkResize()
   activateLists()
   initSlider()

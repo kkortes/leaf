@@ -1,0 +1,18 @@
+font-size(_size)
+  font-size _size
+  line-height _size
+  if typeof(_size) == 'unit'
+    if unit(_size) == 'px'
+        font-size (_size/10)rem
+
+line-height(_size)
+  line-height _size
+  if typeof(_size) == 'unit'
+    if unit(_size) == 'px'
+        line-height (_size/10)rem
+        
+rem(_property, _size)
+  {_property} _size
+  if typeof(_size) == 'unit'
+    if unit(_size) == 'px'
+        {_property} (_size/10)rem
