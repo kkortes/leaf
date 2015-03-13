@@ -1,8 +1,3 @@
-# checks what media query platform is running (on window resize). Returns:
-# tablet-horizontal, tablet-vertical, smartphone-horizontal, smartphone-vertical or desktop
-getPlatform = () ->
-  return window.getComputedStyle(document.body,':before').getPropertyValue('content').replace(/'/g,'').replace(/"/g,'')
-
 # properties for alignChildren() function. You can add more targets here. Key = row, values = children to keep track of and resize
 rows = {
   'mod-row' : [
@@ -187,7 +182,7 @@ initSlider = () ->
 initWaves = () ->
   Waves.displayEffect()
 
-init = () ->
+leafInit = () ->
   imagesLoaded($('body')[0]).on 'always', ->
     makeSquare(elements)
     alignChildren(rows)
@@ -198,4 +193,4 @@ init = () ->
   initWaves()
   initFlip()
 
-init()
+leafInit()
